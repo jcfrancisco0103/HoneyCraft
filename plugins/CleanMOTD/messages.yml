@@ -1,0 +1,8 @@
+messages:
+  usage: |-
+    &aCleanMOTD 0.2.8 by 2LS commands:
+    &e/cleanmotd reload &7- &bReloads the plugin!
+
+  reload: "&aYou have reloaded CleanMOTD 0.2.8 by 2LS!"
+  unknowncommand: "&cUnknown command. Use '/cleanmotd help' to see available commands!"
+  nopermission: "&cThis server is running CleanMOTD 0.2.8 by 2LS."
