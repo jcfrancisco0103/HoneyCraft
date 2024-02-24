@@ -1,0 +1,76 @@
+inject_commands: false
+server_connect_timeout: 5000
+enforce_secure_profile: false
+forge_support: false
+player_limit: 50
+log_pings: false
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+timeout: 30000
+log_commands: false
+network_compression_threshold: 256
+online_mode: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: PMCfa1abd884e1487ff6d6537c7c1b196c6
+    address: 147.185.221.18:33643
+    restricted: false
+    ForkServer: false
+    ForkServerUid: ''
+  skyblock:
+    motd: Skyblock
+    address: 147.185.221.18:33570
+    restricted: false
+    ForkServer: false
+    ForkServerUid: ''
+  Lifesteal:
+    motd: ''
+    address: 147.185.221.18:33730
+    restricted: false
+    ForkServer: false
+    ForkServerUid: ''
+  survival:
+    motd: ''
+    address: 147.185.221.18:33647
+    restricted: false
+    ForkServer: false
+    ForkServerUid: ''
+listeners:
+- query_port: 25565
+  max_players: 50
+  tab_size: 60
+  motd: PMCfa1abd884e1487ff6d6537c7c1b196c6
+  tab_list: GLOBAL
+  host: 0.0.0.0:25565
+  ping_passthrough: false
+  force_default_server: true
+  proxy_protocol: false
+  query_enabled: true
+  bind_local_address: true
+  priorities:
+  - lobby
+  - skyblock
+  - Lifesteal
+  - survival
+  forced_hosts: {}
+ip_forward: true
+remote_ping_timeout: 5000
+reject_transfers: false
+remote_ping_cache: -1
+connection_throttle: 4000
+stats: ca3b0df3-ec78-4f1d-8035-e267ec094d08
+connection_throttle_limit: 3
+groups:
+  md_5:
+  - MersYeon
+  - Properpiolet7088
+prevent_proxy_connections: false

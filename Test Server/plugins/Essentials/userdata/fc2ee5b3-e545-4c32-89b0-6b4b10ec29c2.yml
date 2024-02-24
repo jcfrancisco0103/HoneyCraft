@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 196.245.151.212
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659886581287
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659887093623
+  login: 1659886566148
+money: '100.0'
+last-account-name: xmankiko214
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 379.8303036391971
+  y: 101.0
+  z: -258.2897148532379
+  yaw: 18.748558044433594
+  pitch: 8.57742977142334
+logoutlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 39.57965838007132
+  y: 78.0
+  z: -40.67237916152162
+  yaw: 49.93707275390625
+  pitch: 18.59960174560547

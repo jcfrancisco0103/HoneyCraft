@@ -1,0 +1,40 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(aas)'
+    lore: '&7Gebruik dit op een vishengel.'
+    baited: '&7Aas: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  general: {}
+  leaderboard:
+    title: Scorebord
+    weight: '&6&lZeldzaamheid:'
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: Verkoop GUI
+    prices: '&6&lVerkoopprijzen:'
+    sellfor: '&7Verkoop voor &a%price%'
+    accessbaitshop: '&7Bekijk Aas Winkel'
+  bait:
+    title: Aas Winkel
+    cannotafford: '&cJe kunt dit niet betalen.'
+    buyfor: '&7Koop voor &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cJe hebt geen toestemming om dat te doen.'
+    critical: '&6Kritische Worp!'
+  bait:
+    given: '&7Je hebt &6%amount% %bait%&7 ontvangen.'
+  sell:
+    success: '&7Je hebt je vissen verkocht voor &6$%total%&7.'
+    fail: '&cNiks in deze interface is verkoopbaar...'
+  catch:
+    broadcast: '&6%username% &7heeft zojuist een &6%rarity% &7vis gevangen!'

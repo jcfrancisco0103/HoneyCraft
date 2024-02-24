@@ -1,0 +1,15 @@
+one:
+    two:
+        three: four
+get:
+    header: '&9Ores mined for {PLAYER}'
+    format: '&b{BLOCK}&6: {COUNTCOLOR}{COUNT} &3in last {DELAY} minutes'
+notify:
+    format: <hover:show_text:'<green>Click to teleport to {PLAYER}'><click:run_command:/tp
+        {PLAYER}>&cajAntiXray&7<bold>></bold> &a{PLAYER} &2has mined &a{COUNT} {ORE}s
+        &2in the past {DELAY} minutes! They might be xraying..</click></hover>
+must-be-ingame: '&cYou must be in-game to do that!'
+player-not-found: '&cCould not find the player {PLAYER}'
+noperm: '&cYou do not have permission to do this!'
+cmd-syntax: '&cUsage: &a/{CMD} <player>'
+config-reloaded: '&aConfig and messages reloaded!'

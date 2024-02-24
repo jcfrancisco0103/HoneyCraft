@@ -1,0 +1,40 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(agn)'
+    lore: '&7Bruk dette på en fiskestang.'
+    baited: '&7Agnet: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  general: {}
+  leaderboard:
+    title: Leaderboard
+    weight: '&6&lSjeldenhet:'
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: Selg GUI
+    prices: '&6&lSalgs priser:'
+    sellfor: '&7Selg for &a%price%'
+    accessbaitshop: '&7Gå til agn butikken'
+  bait:
+    title: Agn butikken
+    cannotafford: '&cDu har ikke råd til å kjøpe dette.'
+    buyfor: '&7Kjøp for &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har ikke tillatelse til det.'
+    critical: '&6Kritisk kast!'
+  bait:
+    given: '&7Du ble gitt &6%amount% %bait%&7.'
+  sell:
+    success: '&7Du solgte fisken din for totalt &6$%total%&7.'
+    fail: '&cIngenting er selgbart...'
+  catch:
+    broadcast: '&6%username% &7fanget nettopp en &6%rarity% &7fisk!'

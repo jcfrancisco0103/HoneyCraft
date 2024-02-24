@@ -1,0 +1,41 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(yem)'
+    lore: '&7Bunu bir oltada kullanın.'
+    baited: '&7Yemlendi: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  general:
+    back: '&6Önceki'
+  leaderboard:
+    title: Sıralama
+    weight: '&6&lAğırlık:'
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: Satış Menüsü
+    prices: '&6&lSatış Fiyatları:'
+    sellfor: '&7Satış fiyatı: &a%price%'
+    accessbaitshop: '&7Yem marketine erişim'
+  bait:
+    title: Yem Marketi
+    cannotafford: '&cBunu satın almak için yeterli paranız yok.'
+    buyfor: '&7Alış fiyatı: &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cBunu yapmak için gerekli yetkiye sahip değilsin.'
+    critical: '&6Kritik atış!'
+  bait:
+    given: '&7Sana &6%amount% &7tane %bait% &7verildi.'
+  sell:
+    success: '&7Balığı başarıyla &6$%total%&7 fiyata satdın.'
+    fail: '&cSatabileceğin eşyan yok...'
+  catch:
+    broadcast: '&6%username% &7bir &6%rarity% &7balık tuttu!'

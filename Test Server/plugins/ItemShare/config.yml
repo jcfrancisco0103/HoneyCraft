@@ -1,0 +1,8 @@
+#The itemshare gui size. Can only be 9, 18, 27, 36, 45, 54
+gui-size: 18
+
+#Prefix that is used before each message
+prefix: [IS]
+
+#Itemshare inventory title
+title: "SHARE GUI"

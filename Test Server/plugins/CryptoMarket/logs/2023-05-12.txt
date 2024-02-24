@@ -1,0 +1,3 @@
+10:59:47.796091900-> investor: Trifonoww777 type: PURCHASE cryptocoin: BTC 1.000000 servercoin: 26940.180000 new balance: 1.000000
+11:00:30.845069900-> investor: Trifonoww777 type: PURCHASE cryptocoin: BTC 3.000000 servercoin: 80820.540000 new balance: 4.000000
+11:02:03.394354500-> investor: Trifonoww777 type: SELL cryptocoin: BTC 3.000000 servercoin: 78945.060000 new balance: 1.000000

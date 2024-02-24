@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 124.120.84.118
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659788897411
+  login: 1659788818850
+money: '0'
+last-account-name: PATXZYL18
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 0.0
+  y: 81.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 15.603022786422923
+  y: 77.0
+  z: -16.31455282207957
+  yaw: -152.1104736328125
+  pitch: 6.754476547241211

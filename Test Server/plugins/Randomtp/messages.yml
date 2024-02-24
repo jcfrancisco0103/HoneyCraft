@@ -1,0 +1,143 @@
+# Messages for Random Teleport plugin.
+# You can change # CHAT or # ACTION_BAR to modify where you want to display the message. (Not always is available)
+
+COMMAND:
+  ERROR:
+    WORLD_NOT_RECOGNIZED: '{prefix} &cWorld ''{world}'' is not recognized.' # CHAT
+    MUST_BE_PLAYER: '{prefix} &cYou must be a player to do this.' # CHAT
+    USAGE: '{prefix} &7Usage: &e/{usage}' # CHAT
+    NO_DEPENDENCY: |-
+      {prefix} &7You must use &e{dependency} &7dependency to use this. Download it at:
+      &e{link}
+    PLAYER_NOT_FOUND: '{prefix} &cPlayer not found.' # CHAT
+    COLOR_NOT_RECOGNIZED: '{prefix} &cColor ''{color}'' is not recognized.' # CHAT
+  DISABLED: '&cRandomTP command is disabled.' # ACTION_BAR
+INTEGRATIONS:
+  PLAYERNPC:
+    COMMAND:
+      SETSKIN:
+        NOT_FOUND: '{prefix} &cNo skin with that name was found.' # CHAT
+        TYPE: '{prefix} &cUnrecognized skin type. Use Minecraft or Mineskin.' # CHAT
+        SUCCESS: '{prefix} &7Skin for NPC &e{id} &7has been set as &a{skin} &7of type
+          &b{type}' # CHAT
+      ID:
+        NOT_FOUND: '{prefix} &cNo NPC with id {id} was found.' # CHAT
+        NOT_VALID: '{prefix} &cSpecified id ''{id}'' is not valid.' # CHAT
+        NOT_SPECIFIED: '{prefix} &cYou need to specify (id) of the NPC' # CHAT
+      SETFOLLOWGAZE:
+        SUCCESS: '{prefix} &7Follow gaze for NPC &e{id} &7has been set as {boolean}' # CHAT
+      REMOVE:
+        SHIFT: '&7Use &cshift+punch &7to remove this NPC' # ACTION_BAR
+        SUCCESS: '{prefix} &7NPC &cremoved &7successfully' # CHAT
+      SETGLOWINGCOLOR:
+        SUCCESS: '{prefix} &7Glowing color for NPC &e{id} &7has been set as {color}' # CHAT
+      CREATE:
+        SUCCESS: '{prefix} &7NPC &acreated &7successfully' # CHAT
+      SETPERMISSION:
+        SUCCESS: '{prefix} &7Permission for NPC &e{id} &7has been set as {permission}' # CHAT
+      SETDESTINATION:
+        SUCCESS: '{prefix} &7Destination for NPC &e{id} &7has been set as {destination}' # CHAT
+      INCORRECT: '{prefix} &cIncorrect command. &7Use ''{command}'' to see the command
+        list.' # CHAT
+      TITLE: '{prefix} &7RandomTP NPC commands:'
+    TEXT:
+      GROUP:
+        SEARCHING:
+        - '&bRandom Group Teleport'
+        - '&aSearching location for {players} player(s)...'
+        - '&c&lWALK AWAY TO CANCEL'
+        IDLE:
+        - '&bRandom Group Teleport'
+        - '&a{world}'
+        - '&e&lRIGHT CLICK'
+        WAITING:
+        - '&bRandom Group Teleport'
+        - '&6Waiting for {players} more player(s)...'
+        - '&c&lWALK AWAY TO CANCEL'
+      PERSONAL:
+        IDLE:
+        - '&bRandom Teleport'
+        - '&a{world}'
+        - '&e&lRIGHT CLICK'
+        SEARCHING:
+        - '&bRandom Teleport'
+        - '&aSearching location...'
+        - '&c&lPUNCH TO CANCEL'
+  CHUNKY:
+    PROGRESS:
+      PROCESS: '&eGeneration progress of {world} &e(&f{progress}%&e)'
+      COMPLETE: '&aGeneration completed for {world}'
+      LOADING: '&fLoading Chunky for {world}&f...'
+      CANCELLED: '&cGeneration cancelled for {world}'
+    GENERATION:
+      RESUME: '{prefix} &aGenerating terrain for {world}&a...' # CHAT
+      PAUSE: '{prefix} &cPaused terrain generation for {world}&c...' # CHAT
+  VAULT:
+    ERROR: '{prefix} &cError on payment: {error}' # CHAT
+    SUCCESS: '{prefix} &aYou successfully paid {price} $ for RandomTP' # CHAT
+    NO_BALANCE: '{prefix} &cYou don''t have enough money, the price is {price} $ and
+      you have {balance} $' # CHAT
+TELEPORT:
+  SEARCHING: '&eSearching for a random location...' # ACTION_BAR
+  ALREADY: '&cAlready searching for random location' # ACTION_BAR
+  WANT_CANCEL:
+    COMMAND: '&cIf you want to cancel RandomTP use {command}' # ACTION_BAR
+    NPC_GROUP: '&cIf you want to cancel RandomTP walk away from the NPC' # ACTION_BAR
+    SIGN: '&cIf you want to cancel RandomTP do Left Click on the Sign.' # ACTION_BAR
+    NPC_PERSONAL: '&cIf you want to cancel RandomTP do Left Click on NPC' # ACTION_BAR
+  NOT_FOUND: '&cIt has not been possible to find a random location.' # ACTION_BAR
+  COMPLETE: '&bYou''ve been teleported to random location' # ACTION_BAR
+  CANCELLED: '&cRandomTP search has been cancelled' # ACTION_BAR
+  SAME_FLOOR:
+    NPC_GROUP: '&cYou must step the same floor as NPC to join Group Teleport.' # ACTION_BAR
+  FOUND: '&aRandomTP location was found, starting teleport...' # ACTION_BAR
+  WAITING: '&6Waiting for more players...' # ACTION_BAR
+  STARTED: '&aStarted searching random location.' # ACTION_BAR
+SIGN:
+  CREATE:
+    SUCCESS: '{prefix} &aYou have created a sign for world {world}.' # CHAT
+    NO_PERMISSIONS: '{prefix} &cYou do not have permission to create RandomTP signs.' # CHAT
+  REMOVE:
+    SUCCESS: '{prefix} &7Sign &cremoved &7successfully' # CHAT
+    SHIFT: '&7To remove a sign press &cshift + left click' # ACTION_BAR
+  TEXT:
+    SEARCHING:
+    - '&b&lRandomTP'
+    - '&a{world}'
+    - ''
+    - '&cPunch to cancel'
+    IDLE:
+    - '&b&lRandomTP'
+    - '&a{world}'
+    - ''
+    - '&eClick to teleport'
+GUI:
+  CONFIRMATION:
+    COST:
+      XP: '&7XP: &d{levels} level(s)'
+      TITLE: Teleport cost
+      PRICE: '&7Price: &6{price} $'
+    QUESTION:
+      PAY_RTP: Pay the cost to search for a random location at {world}
+      REMOVE_NPC: Remove NPC {id} with destination to {world}
+      REMOVE_SIGN: Remove Sign with destination to {world}
+    TITLE: Confirm action
+    CONFIRM: Confirm
+    DECLINE: Decline
+WORLD:
+  REQUIREMENT:
+    LEVEL: '&cYou must have {level} experience levels to do a RandomTP.' # ACTION_BAR
+    END:
+      GONE: '&cYou must discover The End before doing a RandomTP' # ACTION_BAR
+      DRAGON: '&cYou must kill the dragon before doing a RandomTP' # ACTION_BAR
+    LEVEL_SUCCESS: '{prefix} &cYou have paid {level} experience levels.' # CHAT
+    NETHER:
+      GONE: '&cYou must discover the Nether before doing a RandomTP' # ACTION_BAR
+  NO_CONFIG: '{prefix} &cThis world doesn''t exist on RandomTP configuration file.' # CHAT
+  DISABLED_COMMAND: '&cRandomTP is disabled in this world.' # ACTION_BAR
+  NO_EXIST: '&cThis world doesn''t exist.' # ACTION_BAR
+NO_PERMISSIONS: '{prefix} &cYou don''t have permissions to do this.' # CHAT
+PREFIX: '&b&lRandomTP &8|'
+COOLDOWN:
+  FINISH: '&aThe cooldown has finished, now you can teleport.' # ACTION_BAR
+  ALREADY: '&cYou have to wait {cooldown} seconds before another random teleport.' # ACTION_BAR

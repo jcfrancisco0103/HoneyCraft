@@ -1,0 +1,34 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(isca)'
+    lore: '&7Use isto numa vara de pesca.'
+    baited: '&7isca(""dos""): %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  sell:
+    title: Vendas (GUI)
+    prices: '&6&lPrecos de venda:'
+    sellfor: '&7Vender Por: &a%price%'
+    accessbaitshop: '&7Acessar loja de iscas'
+  bait:
+    title: Loja De Iscas
+    cannotafford: '&cVoce nao pode comprar isto aqui!'
+    buyfor: '&7Comprar Por: &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cVoce nao tem permissao Para isto.'
+    critical: '&6Elenco Crítico!'
+  bait:
+    given: '&7Foi-lhe dado &6%amount% %bait% &7(iscas)&7.'
+  sell:
+    success: '&7Voce corretamente vendeu o seu peixe por um total de: &6$%total%&7.'
+    fail: '&cNada na interface pode ser vendido!'
+  catch:
+    broadcast: '&6%username% &7Capturou um peixe de raridade: &6%rarity% &7!'

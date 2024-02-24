@@ -1,0 +1,377 @@
+member_tag:
+  texture: default/chat/member_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':member:'
+    permission: oraxen.emoji.member
+  char: ꐐ
+
+newbie_tag:
+  texture: default/chat/newbie_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':newbie:'
+    permission: oraxen.emoji.newbie
+  char: ꐑ
+
+novice_tag:
+  texture: default/chat/novice_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':novice:'
+    permission: oraxen.emoji.novice
+  char: ꐒ
+
+voter_tag:
+  texture: default/chat/voter_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':voter:'
+    permission: oraxen.emoji.voter
+  char: ꐓ
+
+youtuber_tag:
+  texture: default/chat/youtuber_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':youtuber:'
+    permission: oraxen.emoji.youtuber
+  char: ꐔ
+
+vip_tag:
+  texture: default/chat/vip_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':vip:'
+    permission: oraxen.emoji.vip
+  char: ꐕ
+
+vipp_tag:
+  texture: default/chat/vipp_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':vipp:'
+    permission: oraxen.emoji.vipp
+  char: ꐖ
+
+vippp_tag:
+  texture: default/chat/vippp_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':vippp:'
+    permission: oraxen.emoji.vippp
+  char: ꐗ
+
+mvp_tag:
+  texture: default/chat/mvp_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':mvp:'
+    permission: oraxen.emoji.mvp
+  char: ꐘ
+
+mvpp_tag:
+  texture: default/chat/mvpp_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':mvpp:'
+    permission: oraxen.emoji.mvpp
+  char: ꐟ
+
+mvppp_tag:
+  texture: default/chat/mvppp_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':mvpp:'
+    permission: oraxen.emoji.mvppp
+  char: ꐶ
+
+emperor_tag:
+  texture: default/chat/emperor_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':emperor:'
+    permission: oraxen.emoji.emperor
+  char: ꐷ
+
+mod_tag:
+  texture: default/chat/mod_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':mod:'
+    permission: oraxen.emoji.mod
+  char: ꐸ
+
+admin_tag:
+  texture: default/chat/admin_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':admin:'
+    permission: oraxen.emoji.admin
+  char: ꐹ
+
+director_tag:
+  texture: default/chat/director_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':director:'
+    permission: oraxen.emoji.director
+  char: ꐺ
+
+helper_tag:
+  texture: default/chat/helper_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':helper:'
+    permission: oraxen.emoji.helper
+  char: ꐻ
+
+builder_tag:
+  texture: default/chat/builder_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':builder:'
+    permission: oraxen.emoji.builder
+  char: ꐼ
+
+owner_tag:
+  texture: default/chat/owner_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':owner:'
+    permission: oraxen.emoji.owner
+  char: ꐽ
+
+ancestor_tag:
+  texture: default/chat/ancestor_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':ancestor:'
+    permission: oraxen.emoji.ancestor
+  char: ꐾ
+
+immortal_tag:
+  texture: default/chat/immortal_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':immortal:'
+    permission: oraxen.emoji.immortal
+  char: ꐿ
+
+draconic_tag:
+  texture: default/chat/draconic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':draconic:'
+    permission: oraxen.emoji.draconic
+  char: ꑀ
+
+support_tag:
+  texture: default/chat/support_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':support:'
+    permission: oraxen.emoji.support
+  char: ꑁ
+
+rstaff_tag:
+  texture: default/chat/rstaff_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':rstaff:'
+    permission: oraxen.emoji.rstaff
+  char: ꑂ
+
+staff_tag:
+  texture: default/chat/staff_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':staff:'
+    permission: oraxen.emoji.staff
+  char: ꑃ
+
+twitch_tag:
+  texture: default/chat/twitch_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':twitch:'
+    permission: oraxen.emoji.twitch
+  char: ꑄ
+
+tiktok_tag:
+  texture: default/chat/tiktok_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':tiktok:'
+    permission: oraxen.emoji.tiktok
+  char: ꑅ
+
+patreon_tag:
+  texture: default/chat/patreon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':patreon:'
+    permission: oraxen.emoji.patreon
+  char: ꑆ
+
+warrior_tag:
+  texture: default/chat/warrior_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':warrior:'
+    permission: oraxen.emoji.warrior
+  char: ꑇ
+
+knight_tag:
+  texture: default/chat/knight_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':knight:'
+    permission: oraxen.emoji.knight
+  char: ꑈ
+king_tag:
+  texture: default/chat/king_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':king:'
+    permission: oraxen.emoji.king
+  char: ꑉ
+lord_tag:
+  texture: default/chat/lord_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':lord:'
+    permission: oraxen.emoji.lord
+  char: ꑊ
+
+god_tag:
+  texture: default/chat/god_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':god:'
+    permission: oraxen.emoji.god
+  char: ꑋ
+
+ultrarare_tag:
+  texture: default/chat/ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':ultrarare:'
+    permission: oraxen.emoji.ultrarare
+  char: ꑌ
+
+epic_tag:
+  texture: default/chat/epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':epic:'
+    permission: oraxen.emoji.epic
+  char: ꑍ
+
+heroic_tag:
+  texture: default/chat/heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':heroic:'
+    permission: oraxen.emoji.heroic
+  char: ꑎ
+
+legendary_tag:
+  texture: default/chat/legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':legendary:'
+    permission: oraxen.emoji.legendary
+  char: ꑏ
+
+mythical_tag:
+  texture: default/chat/mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':mythical:'
+    permission: oraxen.emoji.mythical
+  char: ꑐ
+
+heavenly_tag:
+  texture: default/chat/heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':heavenly:'
+    permission: oraxen.emoji.heavenly
+  char: ꑑ

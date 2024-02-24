@@ -1,0 +1,1 @@
+16:04:09.027637500-> investor: Trifonoww777 type: SELL cryptocoin: BTC 1.000000 servercoin: 27387.970000 new balance: 0.000000

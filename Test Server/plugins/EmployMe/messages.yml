@@ -1,0 +1,113 @@
+Messages:
+  Job Added To Board: '&aYour offer was added to the &eJobs Board&a!'
+  Job Completed: '&aYou successfully completed this Job!'
+  Items Job Completed: '&aJob Completed. You can access your items via &b"/employment
+    myrewards"'
+  Player Completed Your Job: '&b%completer% &djust completed one of your Jobs!'
+  Global Job Board Is Full: '&cNot enough room for additional Jobs.'
+  You Offered Too Many Jobs: '&cYou have offered too many Jobs! Please delete one
+    to proceed.'
+  Job Cancelled Reward Refunded:
+  - '&aReward &frefunded due to cancelling the Job!'
+  - '&fItem rewards can be accessed via &b"/employment myrewards"&f.'
+  Job Added Notifier Not Found: '&cNo notifier named ''%job added notifier%'' was
+    found.'
+  Your New Job Added Notifier Is: '&aYou will get notifications for &e%job added notifier%&a!'
+  The Job Added Notifiers Are: '&fThe current notifiers are: &a%job added notifiers%'
+  New Job Posted: '&fA new job was posted in the &aJobs Board&f!'
+  Successfully Subscribed To Goal: '&fYou just &asubscribed &fto &e%goal% &fJobs!'
+  Successfully Unsubscribed From Goal: '&fSuccessfully &4unsubscribed &ffrom &e%goal%
+    &fJobs.'
+  Subscribed To Goals Notification: '&fA player just posted a job that offers &b&l%rewards%&f!'
+  Must Be Subscribed To Goal: '&cYou have to be subscribed to this Goal!'
+  Your Subscriptions Are: '&fYou are subscribed to: &6%goal subscriptions%'
+  Prefix: '&2[&aEmployMe&2] '
+  None: None
+  Get: Get
+  Goal: Goal
+  Reward: Reward
+  Items: Items
+  Rewards: Rewards
+  Must Not Be Conversing: '&cYou have to finish your current conversation.'
+  Material Not Found: '&cThe specified Material doesn''t exist!'
+  New Update Available: '&fPlease update &fto the lastest version! (&e%new version%&f)'
+  Currency Symbol: $
+  Plugin Reloaded: '&fReload completed!'
+  Rewards Container Description:
+  - '&fThis is where Reward Items are stored'
+  - '&fafter you complete a job that pays them.'
+  Items Container Description:
+  - '&fWhen someone completes one of your jobs,'
+  - '&fThe items they got for you are stored here.'
+  Container Claim Instruction: 'Claim your %container subject%:'
+  Container Help Item Name: '&aHelp'
+  Job Icon Name: '&a%employer%''s Offer'
+  Job Icon Goal Instructions: '&b&lGoal: &fI need &b%goal%&f.'
+  Job Icon Enchant Description: '&dEnchanted &fwith:'
+  Job Icon Money Payment Description: '&6&n&lPayment&6: &f%money payment%%currency
+    symbol%'
+  Job Icon Items Payment Description: '&6&n&lPayment&6: &fRight Click to preview items(%items
+    amount%)'
+  Inventory Job Board Title: Available Jobs
+  Inventory Job Board Offer Completed: '&a&lClick to Finish!'
+  Inventory Job Board Offer Not Completed: '&cYou didn''t complete this Job.'
+  Inventory Job Board Personal Jobs Item Name: '&aYour Jobs'
+  Inventory Job Board Personal Jobs Item Lore: '&fView or Edit the jobs that you posted.'
+  Inventory Player Jobs Title: Your Jobs
+  Inventory Job Deletion Title: Select Jobs to Delete
+  Inventory Job Deletion Delete Instruction: '&4&lClick to Delete!'
+  Job Successfully Deleted: '&eYou successfully deleted this Job!'
+  Inventory Job Creation Title: Create a new Job
+  Inventory Job Creation Money Job Icon Name: '&6Money Job'
+  Inventory Job Creation Money Job Icon Lore:
+  - '&fClick to offer a Job for which'
+  - '&fyou will pay a certain amount of money.'
+  Inventory Job Creation Items Job Icon Name: '&bItems Job'
+  Inventory Job Creation Items Job Icon Lore:
+  - '&fClick to offer a Job for which'
+  - '&fyou will pay with resources.'
+  Money Payment Amount Question: '&fHow much will you &e&lPay&f? &f(Current Balance:
+    &e&l%player money%&6%currency symbol%&f)'
+  Money Reward Error Negative: '&cCan''t create a Money Reward that pays nothing or
+    less!'
+  Money Reward Not Enough: '&cYou can''t offer an amount of money that you don''t
+    have!'
+  Money Reward Not A Number: '&cPayment has to be a Positive Integer!'
+  Inventory Items Reward Preview Title: Reward Preview (Esc to Return)
+  Inventory Items Reward Offer Title: What would you like to offer?
+  Inventory Items Job No Items Warning: '&cJob creation cancelled because you didn''t
+    offer any item.'
+  Inventory Items Reward Offer Confirmation Item Name: '&aConfirm and Continue'
+  Inventory Items Reward Offer Confirmation Item Lore:
+  - '&fClick to offer the items you added as the job''s reward.'
+  - '&fExiting this inventory would cancel the job.'
+  Inventory Goal Enchantment Selection Title: 'Choose an Enchantment:'
+  Inventory Goal Enchantment Selection Item Lore: '&fClick to add this Enchantment
+    to the Goal.'
+  Enter Enchantment Level: '&fWhat level for &a%enchantment%&f?'
+  Enchantment Level Not A Number: '&cThe Level must be an Integer!'
+  Enchantment Level Out Of Bounds: '&cThe provided level is out of bounds! (&4%enchantment
+    min level%&c-&4%enchantment max level%&c)'
+  Inventory Goal Customization Title: What should the Goal Item be?
+  Inventory Goal Customization Current Item Name: '&aCurrent Goal'
+  Inventory Goal Customization No Current Item Name: '&c&lCurrent Goal: None'
+  Inventory Goal Customization Finish Item Name: '&a&lFinish'
+  Inventory Goal Customization Type Item Name: '&aType'
+  Inventory Goal Customization Type Item Lore: '&fClick to set the type of the goal.'
+  Inventory Goal Customization Amount Item Name: '&6Amount'
+  Inventory Goal Customization Amount Item Lore: '&fClick to set the amount of the
+    goal.'
+  Inventory Goal Customization Enchantments Item Name: '&dEnchantments'
+  Inventory Goal Customization Enchantments Item Lore:
+  - '&fClick to add an enchantment that'
+  - '&fthe goal must have on it.'
+  Item Goal Format Question: '&fWhich &aitem &fdo you need? Reply with the name of
+    it!'
+  Item Goal Invalid: '&cThe specified goal is either incorrectly formatted or unachievable!'
+  Inventory Item Palette Title: 'Select the Goal Item:'
+  Inventory Item Palette Next Item Name: '&aNext'
+  Inventory Item Palette Back Item Name: '&cBack'
+  Inventory Item Palette English Search Item Name: '&aSearch By English Name'
+  Inventory Goal Amount Finish Item Name: '&aContinue'
+  Inventory Goal Amount Finish Item Lore: '&fClick to set the new amount.'
+  Inventory Goal Amount Numeric Amount Title: '&cEnter Numeric Amount:'

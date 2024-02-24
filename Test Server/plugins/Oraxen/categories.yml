@@ -1,0 +1,33 @@
+info:
+  namespace: valentine_furniture_subpack
+categories:
+  valentine_furniture_subpack:
+    enabled: true
+    icon: "valentine_furniture_subpack:valentine_heart_balloon_1"
+    name: " Valentine Furniture v1 "
+    permission: "valentine_furniture_subpack"
+    items:
+      - "valentine_furniture_subpack:valentine_ceiling_1"
+      - "valentine_furniture_subpack:valentine_chair_1"
+      - "valentine_furniture_subpack:valentine_chair_2"
+      - "valentine_furniture_subpack:valentine_chair_3"
+      - "valentine_furniture_subpack:valentine_chair_4"
+      - "valentine_furniture_subpack:valentine_chair_5"
+      - "valentine_furniture_subpack:valentine_chair_6"
+      - "valentine_furniture_subpack:valentine_cotton_1"
+      - "valentine_furniture_subpack:valentine_heart_1"
+      - "valentine_furniture_subpack:valentine_heart_2"
+      - "valentine_furniture_subpack:valentine_heart_balloon_1"
+      - "valentine_furniture_subpack:valentine_place"
+      - "valentine_furniture_subpack:valentine_rose_1"
+      - "valentine_furniture_subpack:valentine_rose_2"
+      - "valentine_furniture_subpack:valentine_table_1"
+      - "valentine_furniture_subpack:valentine_table_2"
+      - "valentine_furniture_subpack:valentine_toy_1"
+      - "valentine_furniture_subpack:valentine_toy_2"
+      - "valentine_furniture_subpack:valentine_tree_1"
+      - "valentine_furniture_subpack:valentine_wine_glass"
+
+# Downloaded from https://nullforums.net/resources/magic-store-furniture-subpack-valentine.6846/
+# 096EX6555EAXW85MVFH71JQ06HKDIX5WJIE19DC
+#MzZFV1NzIjSFF1MyhnV45WNrVVY5tGRONTRq5UNjRlTwE0MZVjdTR2aMRDVVp1bKRXdzoXO

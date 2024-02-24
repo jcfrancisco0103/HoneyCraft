@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.255.66.110
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1708206751115
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1708206912231
+  login: 1708206664075
+money: '0'
+last-account-name: emman
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 7.839571930669282
+  y: 77.0
+  z: -19.463042450415315
+  yaw: 68.97413635253906
+  pitch: 12.776262283325195
+logoutlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: -1.028636239465677
+  y: 79.0
+  z: -9.99975798023653
+  yaw: -174.8375701904297
+  pitch: 11.493083953857422

@@ -1,0 +1,717 @@
+# Random Teleport by SergiFerry
+# Spigot: https://www.spigotmc.org/resources/randomtp.20063/
+#
+# Compatible with PlayerNPC API
+# Spigot: https://www.spigotmc.org/resources/playernpc.93625/
+#
+# Compatible with PlaceholderAPI
+# Spigot: https://www.spigotmc.org/resources/placeholderapi.6245/
+#
+# Compatible with Chunky
+# Spigot: https://www.spigotmc.org/resources/chunky.81534/
+#
+# Compatible with Vault (Economy)
+# Spigot: https://www.spigotmc.org/resources/vault.34315/
+# Use {price} placeholder on Signs, NPCs and Messages.
+
+# Default border
+# If you don't have a set border for a specific world it will use this
+border: 1000
+
+# Always RTP Players to this world
+Force-default-world:
+  enabled: true
+  # Name of the world you want your players to be ALWAYS RTP'd to
+  world-name: Survival
+
+
+# Check for claimed areas before teleporting with these plugins
+# When modifying these values you will need to restart the server (not just /rtplugin reload)!
+Claim-protection:
+  # MC: Tested Spigot 1.16.3 & PaperMC 1.16.5
+  # Plugin: Griefprevention v16.17.1
+  # Link: https://www.spigotmc.org/resources/griefprevention.1884/
+  Griefprevention: true
+  # MC: Tested PaperMC 1.16.5
+  # Plugin: WorldGuard v7.2.4 & WorldEdit v7.2.4
+  # Link: https://dev.bukkit.org/projects/worldguard
+  Worldguard: true
+  # MC: Tested PaperMC 1.16.5
+  # Plugin: Towny v0.96.7.0
+  # Link: https://www.spigotmc.org/resources/towny-advanced.72694/
+  Towny: false
+  # MC: Tested PaperMC 1.16.5
+  # Plugin: RedProtect v7.7.2
+  # Link: https://www.spigotmc.org/resources/redprotect-anti-grief-server-protection-region-management-1-7-1-16.15841/
+  Redprotect: false
+  # !! When using ProtectionStones you need to have the Worldguard Claim-protection ENABLED !!
+  # MC: Tested PaperMC 1.16.5
+  # Plugin: ProtectionStones v2.8.1
+  # Link: https://www.spigotmc.org/resources/protectionstones-updated-for-1-13-1-16-wg7.61797/
+  Protectionstones: false
+
+
+# Cooldown for the /rtp command
+# Set to 0 for no cooldown
+Cooldown:
+  # Cooldown in seconds
+  seconds: 30
+  # In what format should be the remaining cooldown displayed
+  # HOURS - Shows in hours if possible
+  # MINUTES - Shows in minutes if possible
+  # SECONDS - Always shows in seconds
+  # AUTO - Automatically decides the best type to use (recommended)
+  msg-format-type: MINUTES
+  Messages:
+    hour: hour(s)
+    minute: minute(s)
+    second: second(s)
+
+Countdown:
+  enabled: true
+  seconds: 3
+  # Should the plugin count down in chat when RTP'ing
+  # ie.
+  # Teleporing in 5 seconds
+  # Teleporing in 4 seconds
+  # ...........
+  countdown-message: true
+
+Rtp-settings:
+  # Maximum Y level players will be teleported to
+  max-height: 200
+  # Max attempts to generate location
+  max-attempts: 30
+  Confirm-gui:
+    # Set to true if you want players to confirm their /rtp command in a GUI
+    enabled: true
+    # Title of the GUI
+    # Make sure to use color codes (&<color code>) in the title. or else...
+    title: '&aConfirm RTP'
+    # Confirm item material
+    confirm-item: EMERALD_BLOCK
+    # Cancel item material
+    cancel-item: REDSTONE_BLOCK
+  
+  World-gui:
+    # If enabled, when a player executes /rtp the plugin will show a GUI with the option to pick the world
+    enabled: true
+    # Title of the World GUI
+    # Make sure to use color codes (&<color code>) in the title. or else...
+    gui-title: §aPick the world
+    # Item slot settings
+    Slots:
+      # You have three slots in the World GUI
+      one:
+        # enabled - If it should appear in the World GUI
+        enabled: true
+        # world-name - The name of the world
+        world-name: world
+        # title - The title of the Item
+        title: '§aRTP to world: world'
+        # The item material
+        material: GRASS_BLOCK
+      two:
+        enabled: true
+        world-name: world
+        title: '§aRTP to world: world'
+        material: GRASS_BLOCK
+      three:
+        enabled: true
+        world-name: world
+        title: '§aRTP to world: world'
+        material: GRASS_BLOCK
+  TierGUI:
+    # This *no longer* needs the world GUI to be turned on :)
+    enabled: false
+    # Title of the Tier GUI
+    title: §aSelect RTP Tier
+    # Lore (the text under) under each one of the Tiers
+    # Up to THREE lines, supports color codes with the '&' sign
+    # Placeholders:
+    # %price% - The tier price
+    # %border% - The tier border
+    # %world% - The world name
+    item-lore:
+    - '&aBorder: %border%'
+    - '&aPrice: $%price%'
+    - '&aWorld: %world%'
+    one:
+      enabled: true
+      border: 1000
+      min-radius: 0
+      price: 100
+      title: §7Coal Tier
+      material: COAL_BLOCK
+    two:
+      enabled: true
+      border: 3000
+      min-radius: 1000
+      price: 300
+      title: §fIron Tier
+      material: IRON_BLOCK
+    three:
+      enabled: true
+      border: 5000
+      min-radius: 3000
+      price: 500
+      title: §6Gold Tier
+      material: GOLD_BLOCK
+    four:
+      enabled: true
+      border: 7500
+      min-radius: 5000
+      price: 750
+      title: §bDiamond Tier
+      material: DIAMOND_BLOCK
+    five:
+      enabled: true
+      border: 10000
+      min-radius: 7500
+      price: 1000
+      title: §cNetherite Tier
+      material: NETHERITE_BLOCK
+
+
+# RTP Settings for specific worlds
+
+# --Template--
+# Worlds:
+#  world-name:
+#    disabled: false
+#    border: 10000
+#  another-world:
+#    disabled: true
+#    border: 100
+Worlds:
+  # Nether World name: world_nether
+  # End World name: world_the_end
+  survival:
+    # disabled - Should RTP be disabled in this world
+    disabled: true
+    # border - Border in this world
+    border: 2000
+    # This will disable players executing this command to RTP out of this world
+    # Note: People with the permission randomTp.rtp.others *CAN* still RTP other people
+    disable-command: false
+#  pvp:
+#    disabled: true
+#    border: 10
+#  build:
+#    disabled: false
+#    border: 10000
+
+# Should the plugin rtp players that joined for their first time
+rtp-on-first-join: false
+
+
+# If players that have the permission randomTp.rtp.onDeath should be rtp'd on death
+rtp-on-death: false
+
+
+# If the plugin should check for updates on startup, this is recommended to be enabled
+update-checker: true
+
+
+# Vault settings
+Vault:
+  enabled: false
+  # Default price
+  rtp-price: 100
+
+
+
+# Biome blacklist settings
+Biome-blacklist:
+  enabled: true
+  # Full list of biomes https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html (1.16.5)
+  biomes:
+  - OCEAN
+
+
+# --Signs--
+Signs:
+  # If you want to enable RTP signs
+  enabled: true
+  Lines:
+    # What text should be on the signs
+    # !!! If you don't use color codes (ex: &a &b &e) on signs players without the permission could create RTP signs !!!
+    one: '&a[RandomTP]'
+    two: '&bClick to RTP!'
+    three: ''
+    four: ''
+
+
+# --Titles--
+Titles:
+  # Should players see titles when being teleported
+  enabled: true
+  # Title message
+  generating-title: '&bTeleporting you to a random location'
+  # Subtitle message
+  generating-subtitle: '&6Generating a safe location'
+
+
+# If enabled the plugin will give the player resistance after rtp'ing
+Invincibility:
+  enabled: true
+  potion-seconds: 5
+  potion-amplifier: 3
+
+
+# Should the plugin play a sound when teleporting a player
+Sounds:
+  enabled: true
+  # Full list of sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html (1.16.5)
+  sound: BLOCK_NOTE_BLOCK_CHIME
+
+
+# Should the plugin spawn particles upon teleportation
+Particles:
+  enabled: true
+  # Full list of particles: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html (1.16.5)
+  particle: FIREWORKS_SPARK
+  count: 1
+
+
+# --Messages--
+# Placeholders:
+# %player% - Player's name
+# %left% - Time left
+# You can only use placeholders in some messages
+Messages:
+  # The message you see when you get teleported
+  tp-message: '&6You were teleported to a random location'
+  # Message that the player that executed the command /rtp <player> will receive.
+  tp-message-sender: '&6You teleported &c%player% &6to a random location'
+  # Message when you RTP someone to a specific biome
+  tp-message-sender-biome: '&6You teleported &c%player% &6to a random location in
+    the biome &c%biome%'
+  # The message you see when you execute the /rtp @everyone command
+  tp-everyone-message: '&6Teleporting everyone on the server'
+  # Message when the world you try to rtp in is disabled
+  world-disabled-message: '&cRTP is disabled in this world!'
+  # Unknown command message
+  unknown-command: '&cUnknown command, try /rtplugin help'
+  # Not enough permission
+  no-permission: '&cInsufficient permission.'
+  # If player doesn't have enough money to /rtp
+  not-enough-money: '&cYou do not have enough money to do that!'
+  # Successful transaction message
+  took-money-message: '&a$%amount% has been taken from your account'
+  # RTP Sign creation message
+  sign-create: '&6Successfully created an RTP sign'
+  # When an RTP sign is broken
+  sign-break: '&6Successfully removed an RTP sign'
+  # Cooldown message, %left% is for example 8 hour(s), 13 second(s), 1 minute(s) etc.
+  cooldown-message: '&6You have a cooldown of &b%left%!'
+  # Message when the plugin couldn't generate a location
+  couldnt-generate-message: '&cCouldn''t generate a safe location! Please try again'
+  # Player tries to remove a sign while not shifting
+  need-to-shift: '&cYou need to &6shift &cif you want to remove the sign'
+  # Message the player sees when the countdown starts
+  # Use %count% as a placeholder for the countdown timer lenght in seconds
+  countdown-message: '&6Teleporting in %count% seconds... &4Do not move or take damage!'
+  # Counting down message when RTP'ing
+  # Use %time% as a placeholder for seconds remaining
+  counting-down-message: '&6Teleporting in %time% seconds'
+  # Message when RTP gets cancelled
+  teleportation-cancelled-message: '&4Cancelled teleportation!'
+  # Wrong biome name was used when /rtp'ing
+  wrong-biome-name: '&cCouldn''t find that biome!'
+  # Wrong world name was used when /rtp'ing
+  wrong-world-name: '&cCouldn''t find that world!'
+  # Wrong tier or biome name was used when /rtp'ing
+  wrong-tier-or-biome-name: '&cWrong Tier or biome name'
+  # When player executes /rtp and is in countdown
+  in-countdown-message: '&cPlease wait before using this command'
+
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!! don't touch pls :) !!!!!!!!!!!!!!!!!!!
+config-version: 2.19.6
+# ! don't change this if you don't know what you're doing !
+config-version-checker: true
+worlds:
+  #
+  # ##############################
+  #   OPTIONS FOR RESOURCE_WORLD
+  # ##############################
+  resource_world:
+    coordinates:
+      max:
+        x: 5000 # blocks from x:0
+        y: 150 # height blocks (Max: 320)
+        z: 5000 # blocks from z:0
+      min:
+        x: -5000 # blocks from x:0
+        y: 50 # height blocks (Min: -64)
+        z: -5000 # blocks from z:0
+    #
+    # These requirements will be checked for the player before teleporting, and if not met, the player will not be teleported.
+    requirements:
+      level:
+        #
+        # The required experience levels will be removed from the player if the teleport is completed, otherwise they will not be removed.
+        subtract: false
+        #
+        # The player will be checked if he have at least this amount of experience levels before teleporting, otherwise he won't be teleported.
+        amount: 0 # levels of experience
+      money:
+        #
+        # This price will be charged to the player when performing a RandomTP to resource_world, otherwise it will not be teleported.
+        # ⚠ This requires Vault enabled, with an Economy plugin.
+        amount: 100.0
+    prevent:
+      #
+      # This will prevent players from being teleported to a location where they do not have building permissions.
+      # ⚠ This works with ALL protection plugins that prevents players from placing blocks.
+      protected-regions: false
+      #
+      # Random locations will be discarded if they are in one of the following biomes.
+      # List of biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+      # ⚠ Note that not all biomes are available on older minecraft versions, or may be called different.
+      biomes:
+      - OCEAN
+      - COLD_OCEAN
+      - DEEP_OCEAN
+      - DEEP_COLD_OCEAN
+      - DEEP_FROZEN_OCEAN
+      - DEEP_LUKEWARM_OCEAN
+      - GROVE
+      near:
+        #
+        # This will prevent a RandomTP too close to other players.
+        # Set as 0 to disable.
+        other-players: 0 # blocks from the nearest player
+        #
+        # This will prevent a RandomTP too close from the resource_world's spawn.
+        # resource_world's spawn is at x:-128, z:-80
+        # Set as 0 to disable.
+        world-spawn: 0 # blocks from the resource_world's spawn
+        #
+        # This will prevent a RandomTP too close from the start search location.
+        # Set as 0 to disable.
+        search-location: 0 # blocks from the start search location
+      chunks:
+        not-generated: true
+        not-loaded: false
+      #
+      # Random locations will be discarded if the block on the ground is one of the following materials.
+      # List of materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+      # ⚠ Note that not all materials are available on older minecraft versions, or may be called different.
+      blocks:
+      - OAK_LEAVES
+      - SPRUCE_LEAVES
+      - BIRCH_LEAVES
+      - JUNGLE_LEAVES
+      - ACACIA_LEAVES
+      - DARK_OAK_LEAVES
+      - MANGROVE_LEAVES
+    #
+    # This alias will be displayed on messages, signs or NPCs.
+    alias: '&a&lResource world'
+    command:
+      #
+      # This will be the destination if the player executes /<command.label> without any argument, from resource_world
+      destination: resource_world
+      #
+      # If you set "command.enabled" as 'false', people will not be able to use the command /<command.label> if they are at resource_world
+      enabled: true
+  #
+  # ##############################
+  #   OPTIONS FOR SURVIVAL
+  # ##############################
+  survival:
+    prevent:
+      #
+      # Random locations will be discarded if they are in one of the following biomes.
+      # List of biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+      # ⚠ Note that not all biomes are available on older minecraft versions, or may be called different.
+      biomes:
+      - OCEAN
+      - COLD_OCEAN
+      - DEEP_OCEAN
+      - DEEP_COLD_OCEAN
+      - DEEP_FROZEN_OCEAN
+      - DEEP_LUKEWARM_OCEAN
+      - GROVE
+      chunks:
+        not-generated: true
+        not-loaded: false
+      #
+      # This will prevent players from being teleported to a location where they do not have building permissions.
+      # ⚠ This works with ALL protection plugins that prevents players from placing blocks.
+      protected-regions: false
+      near:
+        #
+        # This will prevent a RandomTP too close from the start search location.
+        # Set as 0 to disable.
+        search-location: 0 # blocks from the start search location
+        #
+        # This will prevent a RandomTP too close from the Survival's spawn.
+        # Survival's spawn is at x:0, z:0
+        # Set as 0 to disable.
+        world-spawn: 0 # blocks from the Survival's spawn
+        #
+        # This will prevent a RandomTP too close to other players.
+        # Set as 0 to disable.
+        other-players: 0 # blocks from the nearest player
+      #
+      # Random locations will be discarded if the block on the ground is one of the following materials.
+      # List of materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+      # ⚠ Note that not all materials are available on older minecraft versions, or may be called different.
+      blocks:
+      - OAK_LEAVES
+      - SPRUCE_LEAVES
+      - BIRCH_LEAVES
+      - JUNGLE_LEAVES
+      - ACACIA_LEAVES
+      - DARK_OAK_LEAVES
+      - MANGROVE_LEAVES
+    #
+    # This alias will be displayed on messages, signs or NPCs.
+    alias: '&a&lSurvival'
+    command:
+      #
+      # If you set "command.enabled" as 'false', people will not be able to use the command /<command.label> if they are at Survival
+      enabled: true
+      #
+      # This will be the destination if the player executes /<command.label> without any argument, from Survival
+      destination: survival
+    coordinates:
+      min:
+        z: -5000 # blocks from z:0
+        y: 50 # height blocks (Min: -64)
+        x: -5000 # blocks from x:0
+      max:
+        z: 5000 # blocks from z:0
+        x: 5000 # blocks from x:0
+        y: 150 # height blocks (Max: 320)
+    #
+    # These requirements will be checked for the player before teleporting, and if not met, the player will not be teleported.
+    requirements:
+      level:
+        #
+        # The required experience levels will be removed from the player if the teleport is completed, otherwise they will not be removed.
+        subtract: false
+        #
+        # The player will be checked if he have at least this amount of experience levels before teleporting, otherwise he won't be teleported.
+        amount: 0 # levels of experience
+      money:
+        #
+        # This price will be charged to the player when performing a RandomTP to Survival, otherwise it will not be teleported.
+        # ⚠ This requires Vault enabled, with an Economy plugin.
+        amount: 100.0
+  #
+  # ##############################
+  #   OPTIONS FOR PLAYERSHOPS
+  # ##############################
+  playershops:
+    #
+    # These requirements will be checked for the player before teleporting, and if not met, the player will not be teleported.
+    requirements:
+      level:
+        #
+        # The required experience levels will be removed from the player if the teleport is completed, otherwise they will not be removed.
+        subtract: false
+        #
+        # The player will be checked if he have at least this amount of experience levels before teleporting, otherwise he won't be teleported.
+        amount: 0 # levels of experience
+      money:
+        #
+        # This price will be charged to the player when performing a RandomTP to playershops, otherwise it will not be teleported.
+        # ⚠ This requires Vault enabled, with an Economy plugin.
+        amount: 100.0
+    coordinates:
+      min:
+        x: -5000 # blocks from x:0
+        y: 50 # height blocks (Min: -64)
+        z: -5000 # blocks from z:0
+      max:
+        y: 150 # height blocks (Max: 320)
+        x: 5000 # blocks from x:0
+        z: 5000 # blocks from z:0
+    prevent:
+      near:
+        #
+        # This will prevent a RandomTP too close from the playershops's spawn.
+        # playershops's spawn is at x:-725, z:-44
+        # Set as 0 to disable.
+        world-spawn: 0 # blocks from the playershops's spawn
+        #
+        # This will prevent a RandomTP too close from the start search location.
+        # Set as 0 to disable.
+        search-location: 0 # blocks from the start search location
+        #
+        # This will prevent a RandomTP too close to other players.
+        # Set as 0 to disable.
+        other-players: 0 # blocks from the nearest player
+      #
+      # Random locations will be discarded if the block on the ground is one of the following materials.
+      # List of materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+      # ⚠ Note that not all materials are available on older minecraft versions, or may be called different.
+      blocks:
+      - OAK_LEAVES
+      - SPRUCE_LEAVES
+      - BIRCH_LEAVES
+      - JUNGLE_LEAVES
+      - ACACIA_LEAVES
+      - DARK_OAK_LEAVES
+      - MANGROVE_LEAVES
+      chunks:
+        not-generated: true
+        not-loaded: false
+      #
+      # This will prevent players from being teleported to a location where they do not have building permissions.
+      # ⚠ This works with ALL protection plugins that prevents players from placing blocks.
+      protected-regions: false
+      #
+      # Random locations will be discarded if they are in one of the following biomes.
+      # List of biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+      # ⚠ Note that not all biomes are available on older minecraft versions, or may be called different.
+      biomes:
+      - OCEAN
+      - COLD_OCEAN
+      - DEEP_OCEAN
+      - DEEP_COLD_OCEAN
+      - DEEP_FROZEN_OCEAN
+      - DEEP_LUKEWARM_OCEAN
+      - GROVE
+    #
+    # This alias will be displayed on messages, signs or NPCs.
+    alias: '&a&lPlayershops'
+    command:
+      #
+      # This will be the destination if the player executes /<command.label> without any argument, from playershops
+      destination: playershops
+      #
+      # If you set "command.enabled" as 'false', people will not be able to use the command /<command.label> if they are at playershops
+      enabled: true
+  #
+  # ##############################
+  #   OPTIONS FOR WORLD
+  # ##############################
+  world:
+    prevent:
+      chunks:
+        not-generated: true
+        not-loaded: false
+      #
+      # Random locations will be discarded if they are in one of the following biomes.
+      # List of biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+      # ⚠ Note that not all biomes are available on older minecraft versions, or may be called different.
+      biomes:
+      - OCEAN
+      - COLD_OCEAN
+      - DEEP_OCEAN
+      - DEEP_COLD_OCEAN
+      - DEEP_FROZEN_OCEAN
+      - DEEP_LUKEWARM_OCEAN
+      - GROVE
+      near:
+        #
+        # This will prevent a RandomTP too close from the world's spawn.
+        # world's spawn is at x:0, z:0
+        # Set as 0 to disable.
+        world-spawn: 0 # blocks from the world's spawn
+        #
+        # This will prevent a RandomTP too close from the start search location.
+        # Set as 0 to disable.
+        search-location: 0 # blocks from the start search location
+        #
+        # This will prevent a RandomTP too close to other players.
+        # Set as 0 to disable.
+        other-players: 0 # blocks from the nearest player
+      #
+      # This will prevent players from being teleported to a location where they do not have building permissions.
+      # ⚠ This works with ALL protection plugins that prevents players from placing blocks.
+      protected-regions: false
+      #
+      # Random locations will be discarded if the block on the ground is one of the following materials.
+      # List of materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+      # ⚠ Note that not all materials are available on older minecraft versions, or may be called different.
+      blocks:
+      - OAK_LEAVES
+      - SPRUCE_LEAVES
+      - BIRCH_LEAVES
+      - JUNGLE_LEAVES
+      - ACACIA_LEAVES
+      - DARK_OAK_LEAVES
+      - MANGROVE_LEAVES
+    coordinates:
+      min:
+        z: -5000 # blocks from z:0
+        x: -5000 # blocks from x:0
+        y: 50 # height blocks (Min: -64)
+      max:
+        z: 5000 # blocks from z:0
+        y: 150 # height blocks (Max: 320)
+        x: 5000 # blocks from x:0
+    #
+    # This alias will be displayed on messages, signs or NPCs.
+    alias: '&a&lWorld'
+    command:
+      #
+      # This will be the destination if the player executes /<command.label> without any argument, from world
+      destination: world
+      #
+      # If you set "command.enabled" as 'false', people will not be able to use the command /<command.label> if they are at world
+      enabled: true
+    #
+    # These requirements will be checked for the player before teleporting, and if not met, the player will not be teleported.
+    requirements:
+      money:
+        #
+        # This price will be charged to the player when performing a RandomTP to world, otherwise it will not be teleported.
+        # ⚠ This requires Vault enabled, with an Economy plugin.
+        amount: 100.0
+      level:
+        #
+        # The player will be checked if he have at least this amount of experience levels before teleporting, otherwise he won't be teleported.
+        amount: 0 # levels of experience
+        #
+        # The required experience levels will be removed from the player if the teleport is completed, otherwise they will not be removed.
+        subtract: false
+command:
+  #
+  # This will be the label that the player can execute to perform the RandomTP
+  # Command usage: /<command.label>
+  label: randomtp
+  #
+  # If you set "command.enabled" as 'false', the command will not be registered, and therefore nobody will be able to use it.
+  enabled: true
+  #
+  # If you set "command.to-other-worlds" as 'true', when doing RandomTP command, you will be able to select other world on the command argument, otherwise you will be teleported to the 'world.command.destination'
+  # Command usage: /<command.label> (worldName)
+  to-other-worlds: false
+teleport:
+  effects:
+    sounds: true
+    visual: true
+    slowness: true
+  timer:
+    cooldown: 30 # seconds after the last RandomTP
+    invincible: 5 # seconds after the RandomTP
+    max-search: 30 # seconds after the beginning of the search
+  cancel:
+    die: true
+    move: false
+    teleport: true
+    damage: true
+    sneak: false
+integrations:
+  vault:
+    enabled: false
+#
+# If you set "use-permissions" as 'false', players will be able to do all necessary actions without a permissions plugin.
+# ⚠ All ADMIN actions will be available through server OP
+use-permissions: true
+#
+# If you set "debug" as 'true', RandomTP plugin will print a lot of internal information in the console, useful in case of reporting any error.
+debug: false
+#
+# If you set "auto-update" as 'true', RandomTP plugin will update automatically when a version is available.
+# You can check it manually at: https://www.spigotmc.org/resources/randomtp.20063/
+auto-update: true
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

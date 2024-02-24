@@ -1,0 +1,24 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=3)
+  - UpDown(value=0.025,jumps=15,smooth=true)
+  small: false
+  location: world(0.5,80.0,-5.5)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=%player%)
+name:
+  offset: 0.25
+  space: 0.25
+  lines: # name lines
+    - '&f● &b&lWELCOME TO THE SERVER &f●'
+    - ''
+    - '&fHey &b%player% &fand Welcome to our Server!'
+    - '&fCurrently there are &b%server_online% &fonline players.'
+    - ''
+    - '&fType &b/rtp &fto random teleport to the world.'
+particles: # OPTIONAL
+  - REDSTONE(type=AnimatedCircle,points=120,radius=1.0,color=255:255:255,size=1.6,offset=0:1.8:0,direction=RIGHT)
+  - REDSTONE(type=AnimatedCircle,points=120,radius=1.0,color=255:255:255,size=1.6,offset=0:1.8:0,direction=LEFT)    

@@ -1,0 +1,225 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+load_tag_on_join: true
+gui:
+  name: '&6&lMENU &8❙ &fTags &7(%deluxetags_amount%)'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&e&l%deluxetags_identifier%'
+    lore:
+    - '&r '
+    - '&fDisplay: &r%deluxetags_tag%'
+    - '&r'
+    - '&e&lINFO'
+    - '&r '
+    - '&fLeft-Click here to select'
+    - '&f&n%deluxetags_identifier%&r as your tag.'
+    - '&r '
+    - '&fTo Clear your Current Tag click'
+    - '&fon Diamond Item at the bottom.'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: DIAMOND
+    data: 0
+    displayname: '&eCurrent tag:&f %deluxetags_identifier%'
+    lore:
+    - '&7&m----------------------'
+    - '&fDisplay: %deluxetags_tag%'
+    - ''
+    - '&8● &fClick to remove your current tag'
+    - '&7&m----------------------'
+  no_tag_item:
+    material: DIAMOND
+    data: 0
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - '&r '
+    - '&8● &fClick a tag above to select one!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&r '
+    - '&7Exit the tags menu'
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
+deluxe_chat: true
+deluxetags:
+  Winner:
+    order: 1
+    tag: '&7[&eWinner&7] '
+    description: '&f'
+    permission: deluxetags.tag.winner
+  '2020':
+    order: 2
+    tag: '&7[&e&l#2020&7] '
+    description: '&f'
+    permission: deluxetags.tag.2020
+  LOL:
+    order: 3
+    tag: '&7[&d&lLOL&7] '
+    description: '&f'
+    permission: deluxetags.tag.LOL
+  Simp:
+    order: 4
+    tag: '&7[&d&lSIMP&7] '
+    description: '&f'
+    permission: deluxetags.tag.Simp
+  Heart:
+    order: 5
+    tag: '&7[&c&l❤&7] '
+    description: '&f'
+    permission: deluxetags.tag.Heart
+  ROFL:
+    order: 6
+    tag: '&7[&e&lROFL&7] '
+    description: '&f'
+    permission: deluxetags.tag.ROFL
+  1v1:
+    order: 7
+    tag: '&7[&9&l1v1&7] '
+    description: '&f'
+    permission: deluxetags.tag.1v1
+  Girl:
+    order: 8
+    tag: '&7[&dGirl&7] '
+    description: '&f'
+    permission: deluxetags.tag.Girl
+  Boy:
+    order: 9
+    tag: '&7[&9Boy&7] '
+    description: '&f'
+    permission: deluxetags.tag.Boy
+  HighPing:
+    order: 10
+    tag: '&7[&cHighPing&7] '
+    description: '&f'
+    permission: deluxetags.tag.HighPing
+  Boss:
+    order: 11
+    tag: '&7[&e&kII&r &e&lBOSS &kII&7] '
+    description: '&f'
+    permission: deluxetags.tag.Boss
+  Premium:
+    order: 12
+    tag: '&7[&2Premium&7] '
+    description: '&f'
+    permission: deluxetags.tag.Premium
+  Fire:
+    order: 13
+    tag: '&7[&cFire&7] '
+    description: '&f'
+    permission: deluxetags.tag.Fire
+  Legendary:
+    order: 14
+    tag: '&7[&e&kII&r &e&lLegendary &e&kII&r&7] '
+    description: '&f'
+    permission: deluxetags.tag.Legendary
+  Beginner:
+    order: 15
+    tag: '&7[&9Beginner&7] '
+    description: '&f'
+    permission: deluxetags.tag.Beginner
+  InLove:
+    order: 16
+    tag: '&7[&dInLove&7] '
+    description: '&f'
+    permission: deluxetags.tag.InLove
+  trollhunter:
+    order: 17
+    tag: '&7[&bTroll&fHunter&7] '
+    description: '&f'
+    permission: deluxetags.tag.trollhunter
+  toxic:
+    order: 18
+    tag: '&7[&b☠ &3&lTOXIC &b☠&7] '
+    description: '&f'
+    permission: deluxetags.tag.toxic
+  Happy:
+    order: 19
+    tag: '&7[&aツ &aHappy&7] '
+    description: '&f'
+    permission: deluxetags.tag.Happy
+  RadioActive:
+    order: 20
+    tag: '&7[&e☢ &eRadioActive&7] '
+    description: '&f'
+    permission: deluxetags.tag.RadioActive
+  BioHazard:
+    order: 21
+    tag: '&7[&6☣ BioHazard&7] '
+    description: '&f'
+    permission: deluxetags.tag.BioHazard
+  YinYang:
+    order: 22
+    tag: '&7[&d☯ YinYang&7] '
+    description: '&f'
+    permission: deluxetags.tag.YinYang

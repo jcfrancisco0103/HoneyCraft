@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.186.99.100
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1708204058981
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1708205389883
+  login: 1708203382018
+money: '0'
+last-account-name: azie
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: -23.190097493402785
+  y: 77.0
+  z: -51.7357526399962
+  yaw: -147.7242431640625
+  pitch: 13.689452171325684
+logoutlocation:
+  world: f9076a75-b3d2-49c1-9936-a0180e24629c
+  world-name: Survival
+  x: -70.50736741908393
+  y: 119.43206466535769
+  z: 5.645852424857622
+  yaw: 72.7388916015625
+  pitch: 39.559226989746094

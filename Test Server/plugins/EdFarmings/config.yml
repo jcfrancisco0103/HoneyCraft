@@ -1,0 +1,24 @@
+#################################################
+##             EDFARMINGS CONFIG.YML           ##
+#################################################
+
+Config:
+#TIME FOR CROP AUTOMATICALLY REPLANTING IN TICKS(1 SECOND = 20 TICKS)
+    replantingCropSpeed: 20
+    
+#TIME FOR AN ORE TO REGENERATE AUTOMATICALLY IN TICKS (1 SECOND = 20 TICKS)
+    regeneratingOreSpeed: 60
+    
+#TIME FOR A LOG TO REGENERATE AUTOMATICALLY IN TICKS (1 SECOND = 20 TICKS)
+    regeneratingLogSpeed: 60
+    
+#CUSTOM GROW TIME (TRUE/FALSE) SET TO FALSE IF YOU WANT MINECRAFT NORMAL GROWING
+    customGrowTime: true
+#CUSTOM GROW TIME SPEED IN TICKS(1 SECOND = 20 TICKS)
+    customCropGrowSpeed: 60
+    
+#CUSTOM SOUND WHEN BREAKING CROP (TRUE/FALSE)
+    customSound: true
+#CUSTOM SOUND YOU WANT, CHECK ALL SOUNDS IN https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    customSoundType: ENTITY_EXPERIENCE_ORB_PICKUP
+    

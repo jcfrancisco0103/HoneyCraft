@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.106.222.168
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659230986501
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659231029887
+  login: 1659230959454
+money: '0'
+last-account-name: GALLET1799
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: -2.596512441870925
+  y: 80.0
+  z: -3.142289230010738
+  yaw: 129.13783264160156
+  pitch: 12.604440689086914
+logoutlocation:
+  world: 5b8589a0-6824-42cb-a959-7f8aa0e02cdf
+  world-name: playershops
+  x: -685.1522161483015
+  y: 34.0
+  z: -94.1618504038326
+  yaw: -1.993377685546875
+  pitch: 12.644725799560547

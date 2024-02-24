@@ -1,0 +1,137 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: GRASS_BLOCK
+    displayname: '&2&lBlocks'
+    lore:
+    - '&a&lWho doesn''t love blocks?'
+    slot: 19
+
+  Decoration:
+    enable: true
+    material: TUBE_CORAL
+    displayname: '&9&lDecoration'
+    lore:
+    - '&3&lGet some Decorations to lighten up your island!'
+    slot: 30
+
+  Dyes:
+    enable: true
+    material: CYAN_DYE
+    displayname: '&2&lDyes'
+    lore:
+    - '&a&lGet some colourful dyes!'
+    slot: 23
+
+  Enchanting:
+    enable: true
+    material: ENCHANTED_BOOK
+    displayname: '&d&lEnchanting'
+    lore:
+    - '&5&lGear up with enchantments!'
+    slot: 22
+
+  Farming:
+    enable: true
+    material: WHEAT
+    displayname: '&a&lFarming'
+    lore:
+    - '&2&lGet some materials that might help you farm!'
+    slot: 20
+
+  Food:
+    enable: true
+    material: COOKED_BEEF
+    displayname: '&6&lFood'
+    lore:
+    - '&e&lGet some delicious food to fill your hunger!'
+    slot: 25
+
+  Mobs:
+    enable: true
+    material: GUNPOWDER
+    displayname: '&7&lMobs'
+    lore:
+    - '&8&lGet all kinds of mob drops!'
+    slot: 21
+
+  Music:
+    enable: true
+    material: MUSIC_DISC_STRAD
+    displayname: '&6&lMusic'
+    lore:
+    - '&e&lFan of Music? Get some CDs!'
+    slot: 14
+
+  Ores:
+    enable: true
+    material: IRON_INGOT
+    displayname: '&f&lOres'
+    lore:
+    - '&7&lGet some diamonds or emeralds!'
+    slot: 13
+
+  Others:
+    enable: true
+    material: SADDLE
+    displayname: '&c&lOthers'
+    lore:
+    - '&4&lSome non-categorized items!'
+    slot: 24
+
+  Potions:
+    enable: true
+    material: POTION
+    displayname: '&d&lPotions + Tipped Arrows'
+    potion-glow: true
+    lore:
+    - '&5&lWho doesn''t love potion effects?'
+    slot: 40
+
+  Redstone:
+    enable: true
+    material: REDSTONE
+    displayname: '&c&lRedstone'
+    lore:
+    - '&4&lFor all redstone geeks!'
+    slot: 32
+
+  Spawners:
+    enable: true
+    material: SPAWNER
+    displayname: '&8&lSpawners'
+    lore:
+    - '&7&lNow you can get mobs just like that!'
+    slot: 31
+
+  Workstations:
+    enable: true
+    material: GRINDSTONE
+    displayname: '&7&lWorkstations'
+    lore:
+    - '&8&lGive your villager a job,'
+    - '&8&lor use it for your own.'
+    slot: 12
+
+  SpawnEggs:
+    enable: false
+    material: BAT_SPAWN_EGG
+    displayname: '&8&lSpawnEggs'
+    slot: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: BEDROCK
+    displayname: Z_EverythingElse
+    slot: 41
+
+Fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: true
+  name: ' '

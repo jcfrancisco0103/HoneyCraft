@@ -1,0 +1,44 @@
+#
+# The different levels of fish rarity.
+# You can rename, replace and add new rarities as you wish.
+#
+Rarity:
+  Tiny:
+    # The chance that a caught fish will be tiny.
+    Chance: 5
+    # The weight this type will hold in the leaderboard.
+    Weight: 25
+    # The color used for the name tag.
+    Color: '9'
+    # The amount of health on top of the initial health that the caught
+    # fish grants.
+    Extra Health: -2
+    # The price tiny fish will sell for.
+    Sell Price: 4.99
+    # The effect the lure fishing enchantment would have on the chance.
+    # This is multiplied per enchantment level.
+    Lure Chance Change: -5
+  Normal:
+    Chance: 50
+    Weight: 25
+    Color: '7'
+    Extra Health: 0
+    Sell Price: 19.99
+    Lure Chance Change: -8
+  Large:
+    Chance: 25
+    Weight: 50
+    Color: c
+    Extra Health: 2
+    Sell Price: 49.99
+    Lure Chance Change: 5
+  Huge:
+    Chance: 10
+    Weight: 100
+    Color: '5'
+    Extra Health: 4
+    Sell Price: 99.99
+    # Should we broadcast a message to all players when a huge fish
+    # is caught?
+    Broadcast: true
+    Lure Chance Change: 8

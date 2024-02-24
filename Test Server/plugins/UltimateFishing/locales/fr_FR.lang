@@ -1,0 +1,40 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(appât)'
+    lore: '&7Utilise ceci sur une canne à pèche.'
+    baited: '&7Appaté: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  general: {}
+  leaderboard:
+    title: Tableau
+    weight: '&6&lPoids de rareté : '
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: Interface de vente
+    prices: '&6&lPrix de vente:'
+    sellfor: '&7Vendre pour &a%price%'
+    accessbaitshop: '&7Accéder au magasin des appâts'
+  bait:
+    title: Interface des appâts
+    cannotafford: '&cVous ne pouvez pas vous permettre d''acheter ceci.'
+    buyfor: '&7Acheter pour &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cTu n''as pas la permission de faire ceci.'
+    critical: '&6Jet critique!'
+  bait:
+    given: '&7Vous avez donné &6%amount% %bait%&7.'
+  sell:
+    success: '&7Tu as bien vendu tes poissons pour un total de &6$%total%&7.'
+    fail: '&cRien dans l''interface n''est vendable...'
+  catch:
+    broadcast: '&6%username% &7vient juste d''attraper un poisson de rareté &6%rarity%!'

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.5.197.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1708627108588
+  login: 1708627008529
+money: '0'
+last-account-name: Maki
+lastlocation:
+  world: 01515d00-e639-4d2c-bcd0-993277dda817
+  world-name: world
+  x: 0.0
+  y: 81.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 01515d00-e639-4d2c-bcd0-993277dda817
+  world-name: world
+  x: 28.164936994195077
+  y: 70.0
+  z: -37.23880896221092
+  yaw: 163.65151977539062
+  pitch: 11.825596809387207

@@ -1,0 +1,289 @@
+talk:
+  texture: default/chat/talk
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':talk:'
+    permission: oraxen.emoji.talk
+  char: ꑒ
+
+shop:
+  texture: default/chat/shop
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':shop:'
+    permission: oraxen.emoji.shop
+  char: ꑓ
+
+info:
+  texture: default/chat/info
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':info:'
+    permission: oraxen.emoji.info
+  char: ꑔ
+
+warp:
+  texture: default/chat/warp
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':warp:'
+    permission: oraxen.emoji.warp
+  char: ꑕ
+
+donate:
+  texture: default/chat/donate
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':donate:'
+    permission: oraxen.emoji.donate
+  char: ꑖ
+
+pshop:
+  texture: default/chat/pshop
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':pshop:'
+    permission: oraxen.emoji.pshop
+  char: ꑗ
+
+kits:
+  texture: default/chat/kits
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':kits:'
+    permission: oraxen.emoji.kits
+  char: ꑘ
+
+alchemist:
+  texture: default/chat/alchemist
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':alchemist:'
+    permission: oraxen.emoji.alchemist
+  char: ꑙ
+
+tinkerer:
+  texture: default/chat/tinkerer
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':tinkerer:'
+    permission: oraxen.emoji.tinkerer
+  char: ꑚ
+
+enchanter:
+  texture: default/chat/enchanter
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':enchanter:'
+    permission: oraxen.emoji.enchanter
+  char: ꑛ
+
+battlepass:
+  texture: default/chat/battlepass
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':battlepass:'
+    permission: oraxen.emoji.battlepass
+  char: ꑜ
+
+reforge:
+  texture: default/chat/reforge
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':reforge:'
+    permission: oraxen.emoji.reforge
+  char: ꑝ
+
+vault:
+  texture: default/chat/vault
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':vault:'
+    permission: oraxen.emoji.vault
+  char: ꑞ
+
+server:
+  texture: default/chat/server
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':server:'
+    permission: oraxen.emoji.server
+  char: ꑟ
+
+bank:
+  texture: default/chat/bank
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':bank:'
+    permission: oraxen.emoji.bank
+  char: ꑠ
+
+trader:
+  texture: default/chat/trader
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':trader:'
+    permission: oraxen.emoji.trader
+  char: ꑡ
+
+quest:
+  texture: default/chat/quest
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':quest:'
+    permission: oraxen.emoji.quest
+  char: ꑢ
+
+auction:
+  texture: default/chat/auction
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':auction:'
+    permission: oraxen.emoji.auction
+  char: ꑣ
+
+market:
+  texture: default/chat/market
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':market:'
+    permission: oraxen.emoji.market
+  char: ꑤ
+
+menu:
+  texture: default/chat/menu
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':menu:'
+    permission: oraxen.emoji.menu
+  char: ꑥ
+
+jobs:
+  texture: default/chat/jobs
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':jobs:'
+    permission: oraxen.emoji.jobs
+  char: ꑦ
+
+security:
+  texture: default/chat/security
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':security:'
+    permission: oraxen.emoji.security
+  char: ꑧ
+
+peddler:
+  texture: default/chat/peddler
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':peddler:'
+    permission: oraxen.emoji.peddler
+  char: ꑨ
+
+merchant:
+  texture: default/chat/merchant
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':merchant:'
+    permission: oraxen.emoji.merchant
+  char: ꑩ
+
+keysmith:
+  texture: default/chat/keysmith
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':keysmith:'
+    permission: oraxen.emoji.keysmith
+  char: ꑪ
+
+exchange:
+  texture: default/chat/exchange
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':exchange:'
+    permission: oraxen.emoji.exchange
+  char: ꑫ
+
+rewards:
+  texture: default/chat/rewards
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':rewards:'
+    permission: oraxen.emoji.rewards
+  char: ꑬ
+
+cosmetics:
+  texture: default/chat/cosmetics
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':cosmetics:'
+    permission: oraxen.emoji.cosmetics
+  char: ꑭ
+
+rankup:
+  texture: default/chat/rankup
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':rankup:'
+    permission: oraxen.emoji.rankup
+  char: ꑮ

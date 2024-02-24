@@ -1,0 +1,22 @@
+settings:
+  view-distance: 50
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=2)
+  small: false
+  location: playershops(-750.5,34.0,-82.5)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=%player%)
+name:
+  offset: 0.25
+  space: 0.25
+  lines:
+  - '&e+-----------------------+'
+  - '&fHey &b%player%'
+  - '&fWelcome to the &bWest Side!'
+  - 'Here you can open ChestShops'
+  - 'by Renting &bRegions&f!'
+  - '&e+-----------------------+'
+actions:
+  - player-cmd(value=arm gui)  

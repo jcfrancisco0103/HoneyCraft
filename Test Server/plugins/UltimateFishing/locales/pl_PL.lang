@@ -1,0 +1,34 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(przynęta)'
+    lore: '&7Użyj tego na wędce.'
+    baited: '&7Przynęty: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  sell:
+    title: GUI Sprzedazy
+    prices: '&6&lCeny sprzedaży:'
+    sellfor: '&7Sprzedaj za &a%price%'
+    accessbaitshop: '&7Dostęp do sklepu z przynętami'
+  bait:
+    title: Sklep z przynetami
+    cannotafford: '&cNie możesz tego kupić.'
+    buyfor: '&7Kup za &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNie posiadasz uprawnień do tego'
+    critical: '&6Szczęśliwa przynęta!'
+  bait:
+    given: '&7Podarowano &6%amount% %bait%&7.'
+  sell:
+    success: '&7Twoje wszystkie ryby zostały sprzedane za &6$%total%&7.'
+    fail: '&cNic w interfejsie nie jest możliwe do sprzedania...'
+  catch:
+    broadcast: '&6%username% &7właśnie złotwił rybę &6%rarity%&7!'

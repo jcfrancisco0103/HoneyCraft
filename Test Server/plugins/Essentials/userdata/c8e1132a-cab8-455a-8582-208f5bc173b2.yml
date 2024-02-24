@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.99.16.121
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1658981789055
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1658982009465
+  login: 1658981635448
+money: '0'
+last-account-name: Ortiz639
+lastlocation:
+  world: b24204ba-1d9d-4fe1-97e0-d5a6da5b5bcb
+  world-name: resource_world
+  x: 389.93054893979735
+  y: 90.0
+  z: 361.5732730423489
+  yaw: -73.79965209960938
+  pitch: 34.649967193603516
+logoutlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 5.310441386052117
+  y: 80.0
+  z: -2.654018029863006
+  yaw: 156.5137939453125
+  pitch: 8.198471069335938

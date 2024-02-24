@@ -1,0 +1,12 @@
+Cheating:
+  time: 30d
+  material: DIAMOND_SWORD
+  type: IP
+Spamming:
+  time: 5d
+  material: FEATHER
+  type: NORMAL
+Cursing:
+  time: 3d
+  material: APPLE
+  type: IP

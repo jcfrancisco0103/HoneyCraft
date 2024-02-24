@@ -1,0 +1,34 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(esca)'
+    lore: '&7Utilizzalo su una canna da pesca.'
+    baited: '&7Abboccato: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  sell:
+    title: GUI per la vendita
+    prices: '&6&lPrezzi di vendita:'
+    sellfor: '&7Vendi per &a%price%'
+    accessbaitshop: '&7Accedi allo shop delle esche'
+  bait:
+    title: Shop delle esche
+    cannotafford: '&cNon hai abbastanza soldi per questo.'
+    buyfor: '&7Acquista per &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNon hai i permessi per eseguire questo comando.'
+    critical: '&6Tiro critico!'
+  bait:
+    given: '&7Hai ricevuto &6%amount% %bait%&7.'
+  sell:
+    success: '&7Hai venduto i pesci per &6$%total%&7.'
+    fail: '&cNessun item è vendibile...'
+  catch:
+    broadcast: '&6%username% &7ha appena pescato un pescec &6%rarity%&7!'

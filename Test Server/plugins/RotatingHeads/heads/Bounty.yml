@@ -1,0 +1,20 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=2)
+  small: false
+  location: world(0.5,78.0,-78.5)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=Bounties)
+name:
+  offset: 0.25
+  space: 0.25
+  lines:
+  - '&3+----------------------+'
+  - 'Hey &e%player%'
+  - 'shush, This is a Bounty Agent'
+  - 'Here you can either place or'
+  - 'hunt bounties and earn money!'
+  - '&3+----------------------+'

@@ -1,0 +1,21 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=2)
+  small: false
+  location: world(-24.5,78.0,-73.5)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=Jobs)
+name:
+  offset: 0.25
+  space: 0.25
+  lines:
+  - '&6+---------------------+'
+  - '&fHey &b%player%'
+  - ''
+  - 'This is a Work Zone!'
+  - "Here you'll find different"
+  - 'Kinds of Jobs to earn Money with.'
+  - '&6+---------------------+'

@@ -1,0 +1,107 @@
+#  _       __           __  __              _   __                 
+# | |     / /__  ____ _/ /_/ /_  ___  _____/ | / /__ _      _______
+# | | /| / / _ \/ __ `/ __/ __ \/ _ \/ ___/  |/ / _ \ | /| / / ___/
+# | |/ |/ /  __/ /_/ / /_/ / / /  __/ /  / /|  /  __/ |/ |/ (__  ) 
+# |__/|__/\___/\__,_/\__/_/ /_/\___/_/  /_/ |_/\___/|__/|__/____/  
+#                       [2.2.2]
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# If set to false the whitelist is a blacklist. 
+# This means worlds listed won't receive Weather News announcements. 
+worldwhitelist: true
+worlds:
+- world
+
+# if set to true players will get the current weather notifacation as they join, if you do not want this simply set to false.
+showonlogin: true
+
+# Stepping allows time to be displayed in steps. This is useful if you
+# wish to hide information from your players. The system will use the
+# entry which is farthest away from current time the next weather 
+# change in ingame Minecraft ticks. 24000 for example is 1 day. An
+# entry consist of up to 3 entrys of minute, hour and day.
+# Please note that there could be strange things happening if not
+# all three are present!
+# This isn't true if anything is made as in the default configuration.
+# For the minute, hour and day entrys a zero means will not show and anything
+# over 1 means divide thou x and multiply with x in integer (natural numbers).
+stepping:
+- 1:
+    minute: 1
+- 60:
+    minute: 10
+- 240:
+    minute: 30
+- 360:
+    minute: 0
+    hour: 1
+- 11520:
+    minute: 0
+    hour: 0
+    day: 2
+unprecise: true
+minimumpercentage: 0.1
+maximumpercentage: 1.0
+exponentialmod: 2.0
+modulator: 79
+maximumtime: 180000
+# Variable -------Name Usage
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# DAY-------------Set display name of singular day
+# DAY_PLURAL------Set display name of plural days
+# HOUR------------Set display name of singular hour
+# HOUR_PLURAL-----Set display name of plural hours
+# MINUTE----------Set display name of singular minute
+# MINUTE_PLURAL---Set display name of plural minutes
+# AND-------------Set display name of and
+# SUN-------------Set display name of sun
+# RAIN------------Set display name of rain
+# THUNDERSTORM----Set display name of thunderstorm
+# CLEAR-----------Will be displayed if the system know which weather will be after the current (change)
+# UNCLEAR---------Will be displayed if the system doesn't know which weather will be after the current (change)
+# BLACKLISTED-----Will be displayed if this world is blacklisted or not whitelisted
+# UNAVAILABLE-----Will be displayed if this world doesn't provide weather information
+# ACCURACY--------Get replaced by fake accuracy as percentage from 0-100 without a %
+# BLACK-----------Sets anything after it black
+# DARK_BLUE-------Sets anything after it dark blue
+# DARK_GREEN------Sets anything after it dark green
+# DARK_AQUA-------Sets anything after it dark blue (aqua)
+# DARK_RED--------Sets anything after it dark red
+# DARK_PURPLE-----Sets anything after it dark purple
+# GOLD------------Sets anything after it gold
+# GRAY------------Sets anything after it gray
+# DARK_GRAY-------Sets anything after it dark gray
+# BLUE------------Sets anything after it blue
+# GREEN-----------Sets anything after it green
+# AQUA------------Sets anything after it aqua
+# RED-------------Sets anything after it red
+# LIGHT_PURPLE----Sets anything after it light purple
+# YELLOW----------Sets anything after it yellow
+# WHITE-----------Sets anything after it white
+# ITALIC----------Sets anything after it italic
+# BOLD------------Sets anything after it bold
+variables:
+  DAY: "day"
+  DAY_PLURAL: "days"
+  HOUR: "hour"
+  HOUR_PLURAL: "hours"
+  MINUTE: "minute"
+  MINUTE_PLURAL: "minutes"
+  AND: "and"
+  SUN: "clear skys"
+  RAIN: "rain"
+  THUNDERSTORM: "thunderstorm"
+  CLEAR: "${header}${today}${mainclear}${nextclear}"
+  UNCLEAR: "${header}${today}${mainunclear}${nextunclear}"
+  UNAVAILABLE: "${header}${RED}Weather unavailable."
+  BLACKLISTED: "${header}${RED}Sorry I can't do this."
+  header: "${GOLD}${ITALIC}${BOLD}WeatherNews ${WHITE}${ITALIC}${BOLD}>${AQUA} "
+  today: |
+    Today is day ${TIMEDAY}.
+  nextunclear: |
+    After that we have something different.
+    I will notify you then.
+  nextclear: "After that we have ${NEXT} (${ACCURACY}%)."
+  mainclear: |
+    We have ${NOW} for the next ${NEXTNICE}.
+  mainunclear: |
+    We have ${NOW} for at least the next ${NEXTNICE} (${ACCURACY}%).

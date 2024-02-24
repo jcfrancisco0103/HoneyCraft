@@ -1,0 +1,26 @@
+{
+  "guid": "d06923e6-30c1-4b7f-93d2-5caf2f8d7e66",
+  "serverTypeGuid": "984ed3d3-636d-4535-82b2-7c1048782c64",
+  "name": "Test Server",
+  "description": "",
+  "creationDate": "2024-02-22T16:07:34.3149776-08:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "None",
+  "startupMethode": "JavaStartupLine",
+  "allocatedMemory": 8192,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xms256M -Xmx[RAM]M -jar server.jar",
+  "startupBatFilename": null,
+  "serverFileChecksum": "238e64b33e5c7c9b87506cf1a23f239e6ce7fb71edd9d31837f229c94f4dfa1a",
+  "serverFileVersion": "1.20.1",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": []
+}

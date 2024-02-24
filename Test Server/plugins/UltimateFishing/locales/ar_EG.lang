@@ -1,0 +1,40 @@
+# General Messages (Rasa2l 3ama)
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages (Rasa2il al-63m)
+object:
+  bait:
+    name: '%bait% &7(6o3m)'
+    lore: '&7ast5dem haza 3ala al senara'
+    baited: '&7a63amt: %bait% &7%uses%/%max%'
+# Interface Messages (Rasa2l al Wagha)
+interface:
+  general: {}
+  leaderboard:
+    title: Law7at alzo3ama2
+    weight: '&6&lWazn alnodra:'
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: wajehat albay3
+    prices: '&6&lalas3ar:'
+    sellfor: '&7albay3 mo8abel: &a%price%'
+    accessbaitshop: '&7al wosool ela matjar al 6o3m'
+  bait:
+    title: matjar al 6o3m
+    cannotafford: '&cla tasta6e3 daf3 zalek'
+    buyfor: '&7Shera2 bes3r: &a%price%'
+# Event Messages (Rasa2l al a7das)
+event:
+  general:
+    nopermission: '&canta la tmtalek sala7ya letaf3el zalek'
+    critical: '&6Sb al7asem!'
+  bait:
+    given: '&7tm a362k &6%amount% %bait%&7.'
+  sell:
+    success: '&7la8ad b3t al Samak mo8abal &6$%total%&7 &7benaja7.'
+    fail: '&cla shay2 hona lel be3...'
+  catch:
+    broadcast: '&6%username% &7la8ad amsak samaka &6%rarity% &7!'

@@ -1,0 +1,120 @@
+# Timed Rewards by Bradley.
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+
+
+menu:
+  title: 'Rewards Menu'
+  size: 45
+  items:
+    # The reward key, must be unique.
+    reward1:
+      # Slot that the item will appear in the (/rewards) inventory.
+      # Note: slots start at 0
+      slot: 20
+      item:
+        # The amount of the item.
+        amount: 1
+        # The item type, materials can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+        # Note: material types will vary depending on version.
+        material: ENDER_CHEST
+        # The amount of damage the item has, this is also used for certain items such as
+        # potions, stained glass, wool, etc. For example, use 'damage: 13' for red wool,
+        # and make sure the material (above) is wool.
+        damage: 0
+        # The display name of the item, uses & for colours.
+        name: '&aMystery Box Delivery'
+        # The lore of the item, can add as many lines as you want.
+        lore:
+        - '&7Your free daily Mystery Box.'
+        - ''
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to loot!'
+      # The cooldown, in seconds, until the reward can be claimed again.
+      cooldown: 86400
+      # The commands to be ran when the item is claimed. Put [PLAYER] before the
+      # command if you want the player to run the command.
+      commands:
+      - '[CONSOLE]timedrewards blankmsg {player} &7[&6TimedRewards&7] &7Thanks for claiming the &edaily &7reward! Come back tomorrow for another.'
+      - '[CONSOLE]eco give {player} 100'
+      - '[CONSOLE]crates givekey {player} elite 1'
+    reward2:
+      slot: 21
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&aMystery Box Delivery'
+        lore:
+        - '&7Your free daily Mystery Box.'
+        - ' '
+        - '&7Requires &e&lVIP'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to loot!'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]eco give {player} 300'
+      - '[CONSOLE]crates givekey {player} elite 2'
+      permission: timedrewards.vip
+    reward3:
+      slot: 22
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&aMystery Box Delivery'
+        lore:
+        - '&7Your free daily Mystery Box.'
+        - ' '
+        - '&7Requires &b&lMVP'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to loot!'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]eco give {player} 450'
+      - '[CONSOLE]crates givekey {player} elite 2'
+      - '[CONSOLE]crates givekey {player} legendary 1' 
+      permission: timedrewards.mvp
+    reward4:
+      slot: 23
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&aMystery Box Delivery'
+        lore:
+        - '&7Your free daily Mystery Box.'
+        - ' '
+        - '&7Requires &a&lSPECIAL'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to loot!'
+      cooldown: 86400
+      permission: timedrewards.special
+      commands:
+      - '[CONSOLE]eco give {player} 750'
+      - '[CONSOLE]crates givekey {player} elite 2'
+      - '[CONSOLE]crates givekey {player} legendary 2' 
+    reward5:
+      slot: 24
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&aMystery Box Delivery'
+        lore:
+        - '&7Your free daily Mystery Box.'
+        - ' '
+        - '&7Requires &d&lCHAMPION'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to loot!'
+      cooldown: 86400
+      permission: timedrewards.champion
+      commands:
+      - '[CONSOLE]eco give {player} 900'
+      - '[CONSOLE]crates givekey {player} elite 3'
+      - '[CONSOLE]crates givekey {player} legendary 2'

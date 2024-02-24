@@ -1,0 +1,34 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(Köder)'
+    lore: '&7Benutze diesen Köder an einer Angelrute.'
+    baited: '&7Geködert: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  sell:
+    title: Verkaufs GUI
+    prices: '&6&lVerkaufspreise:'
+    sellfor: '&7Verkaufe für &a%price%'
+    accessbaitshop: '&7Köderladen öffnen'
+  bait:
+    title: Köderladen
+    cannotafford: '&cDas kannst du dir nicht leisten.'
+    buyfor: '&7Kaufen für &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDazu hast du keine Rechte.'
+    critical: '&6Kritischer Wurf!'
+  bait:
+    given: '&7Dir wurde ein &6%amount% %bait% &7gegeben.'
+  sell:
+    success: '&7Du hast deine Fische erfolgreich für &6$%total% &7verkauft.'
+    fail: '&cNichts im Interface ist verkaufbar...'
+  catch:
+    broadcast: '&6%username% &7hat gerade einen &6%rarity% &7Fisch erwischt!'

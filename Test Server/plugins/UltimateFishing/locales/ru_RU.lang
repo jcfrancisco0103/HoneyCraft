@@ -1,0 +1,42 @@
+# Основные сообщения
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Объектные сообщения
+object:
+  bait:
+    name: '%bait% &7(bait)'
+    lore: '&7Используйте это на удочку.'
+    baited: '&7Приманка: %bait% &7%uses%/%max%'
+# Сообщения интерфейса
+interface:
+  general:
+    next: '&6Вперед'
+    back: '&6Назад'
+  leaderboard:
+    title: Таблица лидеров
+    weight: '&6&lВес раритета:'
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: Интерфейс продажи
+    prices: '&6&lЦены на продажу:'
+    sellfor: '&7Продать за &a%price%'
+    accessbaitshop: '&7Доступ к магазину приманок'
+  bait:
+    title: Магазин приманок
+    cannotafford: '&cВы не можете позволить себе купить это.'
+    buyfor: '&7Купить за &a%price%'
+# Сообщения событий
+event:
+  general:
+    nopermission: '&cУ вас недостаточно разрешений.'
+    critical: '&6Критический бросок!'
+  bait:
+    given: '&7Вам выдано &6%amount% %bait%&7.'
+  sell:
+    success: '&7Вы успешно продали свою рыбу за &6$%total%&7.'
+    fail: '&cНичто в интерфейсе не продается...'
+  catch:
+    broadcast: '&6%username% &7только что поймал рыбу &6%rarity%&7!'

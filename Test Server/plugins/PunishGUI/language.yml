@@ -1,0 +1,5 @@
+PUNISH:
+  USAGE: '&cUse Like: /punish <target>'
+  NAME-ERROR: '&cThat player name is invalid!'
+  COMMAND-CONSOLE: '&cConsole cannot use this command!'
+  RELOAD: '&aPlugin files have been reloaded!'

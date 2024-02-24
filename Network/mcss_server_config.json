@@ -1,0 +1,31 @@
+{
+  "guid": "733eb611-1cc8-433f-9098-7ba1f280675c",
+  "serverTypeGuid": "1a1bb7be-219f-4dc8-9a6a-4a10dc725391",
+  "name": "Network",
+  "description": "",
+  "creationDate": "2024-02-22T16:14:42.2491286-08:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "None",
+  "startupMethode": "JavaStartupLine",
+  "allocatedMemory": 2048,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xms256M -Xmx[RAM]M -jar server.jar",
+  "startupBatFilename": null,
+  "serverFileChecksum": "f856da25a6092293a5784bef4b305a9418a66426b763c2242947444ec9ad8492",
+  "serverFileVersion": "1.20-R0.3",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": [
+    "30280262-1810-42e6-9e3d-037e19cc0e9b",
+    "f1e96f66-e286-43fd-adb5-00ba7c97ecdd",
+    "9d755df7-42cd-47f3-b517-3223ed384796",
+    "d06923e6-30c1-4b7f-93d2-5caf2f8d7e66"
+  ]
+}

@@ -1,0 +1,20 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=2)
+  small: false
+  location: world(31.487226331123157,79.06013874048202,-20.429086244168232)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=Rewards)
+name:
+  offset: 0.25
+  space: 0.25
+  lines:
+  - '&e+----------------------+'
+  - '&fHey &c%player%'
+  - 'That is a &bDaily Reward &fNPC'
+  - 'By interacting with it, you can'
+  - 'collect amazing &bDaily Rewards!'
+  - '&e+----------------------+'

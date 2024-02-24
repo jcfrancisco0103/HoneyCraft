@@ -1,1 +1,0 @@
-java -jar -Xmx1024M server.jar -o true

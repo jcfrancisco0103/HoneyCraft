@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.109.8.170
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659866013096
+  login: 1659865981757
+money: '0'
+last-account-name: _m3ks
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 0.0
+  y: 81.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0ba23531-a8f1-4755-ac70-706332423bca
+  world-name: Survival
+  x: 745.1309694972906
+  y: 64.0
+  z: -568.703296906908
+  yaw: -17.8604679107666
+  pitch: 40.65443801879883

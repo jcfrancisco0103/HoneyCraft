@@ -1,0 +1,1 @@
+java -jar -Xmx2000M server.jar -o true

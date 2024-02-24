@@ -1,0 +1,34 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(Tomee)'
+    lore: '&7In Ra Bar Roye Choobe Mahigiri Estefade Konid.'
+    baited: '&7Tome: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  sell:
+    title: Safhe Foroosh
+    prices: '&6&lGheymate Foroosh:'
+    sellfor: '&7Foroosh Ba Gheymate &a%price%'
+    accessbaitshop: '&7Dastresi Be Forooshgahe Tomee Ha'
+  bait:
+    title: Forooshgahe Tomee
+    cannotafford: '&cPoole Shoma Be Kharide In Tomee Nemiresad.'
+    buyfor: '&7Kharid Ba Gheymate &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cShoma Ejaze Dastresi Be In Kar Ra Nadarid!'
+    critical: '&6Critical Cast!'
+  bait:
+    given: '&7Shoma &6%amount% %bait%&7 Daryaft Kardid.'
+  sell:
+    success: '&7Shoma Ba Movafaghiyat Mahiye Khod Ra Ba Gheymate &6$%total% &7Forookhtid.'
+    fail: '&cDar In Rabet Hich Chizi Ghabele Foroosh Nist.'
+  catch:
+    broadcast: '&6%username% &7Yek Mahi Az No''e &6%rarity% &7Gereft!.'

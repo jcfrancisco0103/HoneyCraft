@@ -1,0 +1,139 @@
+Options:
+  
+  # Convertor Actions:
+  # action, amount, translation
+  # = (equals)
+  # < (lower than)
+  # > (more than)
+  TimeConvertor:
+    Split: " "
+    Format: "%time% %format%"
+    Seconds:
+      Convertor:
+      - "=,0,sec"
+      - "=,1,sec"
+      - ">,1,secs"
+      Lookup:
+      - "s"
+      - "sec"
+      - "second"
+      - "seconds"
+    Minutes:
+      Convertor:
+      - "=,1,min"
+      - ">,1,mins"
+      Lookup:
+      - "m"
+      - "mi"
+      - "min"
+      - "minu"
+      - "minut"
+      - "minute"
+      - "minutes"
+    Hours:
+      Convertor:
+      - "=,1,hour"
+      - ">,1,hours"
+      Lookup:
+      - "h"
+      - "ho"
+      - "hou"
+      - "hour"
+      - "hours"
+    Days:
+      Convertor:
+      - "=,1,day"
+      - ">,1,days"
+      Lookup:
+      - "d"
+      - "da"
+      - "day"
+      - "days"
+    Weeks:
+      Lookup:
+      - "w"
+      - "we"
+      - "wee"
+      - "week"
+      - "weeks"
+    Months:
+      Convertor:
+      - "=,1,month"
+      - ">,1,months"
+      Lookup:
+      - "mo"
+      - "mon"
+      - "mont"
+      - "month"
+      - "months"
+    Years:
+      Convertor:
+      - "=,1,year"
+      - ">,1,years"
+      Lookup:
+      - "y"
+      - "ye"
+      - "yea"
+      - "year"
+      - "years"
+timeConvertor:
+  settings:
+    # If plugin isn't using own split, use defaulty digitals? 300 -> 5:00
+    defaultlyDigits: false
+    # If plugin isn't using own split, api'll use this split
+    defaultSplit: " "
+  years:
+    # Pattern matcher (regex)
+    matcher: "y|years?"
+    # >=X value is higher or equals to X
+    # <=X value is lower or equals to X
+    # >X value is higher than X
+    # <X value is lower than X
+    # ==X value equals to X
+    # !=X value doesn't equals to X
+    convertor:
+    - "<=1  year"
+    - ">1  years"
+  months:
+    matcher: "mo|mon|months?"
+    convertor:
+    - "<=1  month"
+    - ">1  months"
+  days:
+    matcher: "d|days?"
+    convertor:
+    - "<=1  day"
+    - ">1  days"
+  hours:
+    matcher: "h|hours?"
+    convertor:
+    - "<=1  hour"
+    - ">1  hours"
+  minutes:
+    matcher: "m|mi|min|minut|minutes?"
+    convertor:
+    - "<=1  minute"
+    - ">1  minutes"
+  seconds:
+    matcher: "s|sec|seconds?"
+    
+    convertor:
+    - "<=1  second"
+    - ">1  seconds"
+
+# Save all loaded user files (in memory) every 6 hours
+automatically-save-user-files: true
+
+# Scoreboard lines will be split into 3 parts as it is on version 1.12.2 or lower,
+# so that players with older client (1.12.2-) can see the scoreboard as well as players with client 1.13+ (text length is limited to 48 chars)
+# This requires a bit more CPU usage and sends more packets as a result.
+# Enable this only if you have installed ViaVersion/ProtocolSupport and allows connection for 1.12.2 and older clients
+fallback-scoreboard-support: false
+
+# In some cases Java isn't able to compile .java file and we have to use .jar file instead
+nmsProvider-use-directly-jar: false
+
+# Default Json reader & writer for reading & writing Config files
+# Guava - From Google (Default)
+# TheAPI - Our own project
+default-json-handler: "TheAPI"

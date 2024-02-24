@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.157.165.98
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1708731530779
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1708731532932
+  login: 1708730262091
+money: '0.0'
+last-account-name: MersYeon
+lastlocation:
+  world: 388d3ee8-456e-4970-9883-d49b019040b8
+  world-name: world
+  x: 115.52103055152867
+  y: 74.0
+  z: 39.62808791047166
+  yaw: 128.20672607421875
+  pitch: 6.443496227264404
+logoutlocation:
+  world: 388d3ee8-456e-4970-9883-d49b019040b8
+  world-name: world
+  x: -69.51021050880641
+  y: 107.0
+  z: -9.643237014255142
+  yaw: -0.04501555860042572
+  pitch: 4.497601509094238
+homes:
+  home:
+    world: 388d3ee8-456e-4970-9883-d49b019040b8
+    world-name: world
+    x: 3.3796882437638645
+    y: 80.0
+    z: 392.44239321293304
+    yaw: -128.83474731445312
+    pitch: 11.530534744262695

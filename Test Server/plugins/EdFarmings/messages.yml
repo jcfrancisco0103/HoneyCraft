@@ -1,0 +1,20 @@
+Messages:
+  prefix: '&e[&2EdFarmings&e] '
+  no-permission: '&cYou do not have permission!'
+  reload-message: '&3The plugin has been reload correctly!'
+  recieved-wand-message: '&fYou have recieved a wand!'
+  no-console-message: '&cYou cannot execute commands in the console'
+  no-crop-block: '&cThat block you have selected is not a crop! Please set it on a
+    crop'
+  no-ore-block: '&cThat block you have selected is not an ore! Please set it on an
+    ore'
+  no-log-block: '&cThat block you have selected is not a log! Please set it on a log'
+  field-not-defined: '&cThat field is not defined!'
+  field-removed: '&4The field has been removed correctly!'
+  field-already-defined: '&cThat field has been already defined!'
+  field-defined: '&2The field has been defined correctly!'
+  help-command:
+    main-command-message: '&fMain Command'
+    help-command-message: '&fConfigure the plugin and set fields in-game'
+    version-command-message: '&fShows you the plugin version'
+    reload-command-message: '&fReload the plugins configuration'

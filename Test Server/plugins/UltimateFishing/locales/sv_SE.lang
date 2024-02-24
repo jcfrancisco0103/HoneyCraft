@@ -1,0 +1,34 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(bete)'
+    lore: '&7Använd detta på ett fiskespö.'
+    baited: '&7Betade: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  sell:
+    title: Sälj GUI
+    prices: '&6&lSälj priser:'
+    sellfor: '&7Sälj för &a%price%'
+    accessbaitshop: '&7Få åtkomst till Bete Affären'
+  bait:
+    title: Bete Affär
+    cannotafford: '&cDu har inte råd att köpa det här.'
+    buyfor: '&7Köp för &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har inte tillåtelse för det!'
+    critical: '&6Kritisk Kast!'
+  bait:
+    given: '&7Du fick &6%amount% %bait%&7.'
+  sell:
+    success: '&7Du sålde all din fisk för &6$%total%&7.'
+    fail: '&cIngenting är säljbart...'
+  catch:
+    broadcast: '&6%username% &7fångade precis en &6%rarity% &7fisk!'

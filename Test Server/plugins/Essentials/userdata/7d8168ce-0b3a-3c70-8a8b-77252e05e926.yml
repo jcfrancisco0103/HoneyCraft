@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1683876348048
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1683877316861
+  login: 1683876965111
+money: '0'
+last-account-name: Trifonoww7777
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 30.790407170540632
+  y: 80.0
+  z: -14.67002773826989
+  yaw: -174.17587280273438
+  pitch: 9.326282501220703
+logoutlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: 0.9823163075991933
+  y: 80.98904046897293
+  z: -38.20171415461165
+  yaw: -179.2501983642578
+  pitch: 29.184261322021484

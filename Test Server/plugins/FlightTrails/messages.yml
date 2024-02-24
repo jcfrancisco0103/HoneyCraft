@@ -1,0 +1,15 @@
+prefix: '&b&lFlightTrails &8| &f'
+trails-enabled: You have enabled your flight trails.
+trails-disabled: You have disabled your flight trails.
+reload: You have reloaded FlightTrails (%version%&f)
+set-value: You have set your trail %type% to %value%
+invalid-player: '&cPlease provide a valid player name.'
+invalid-particle: '&cPlease provide a valid particle.'
+invalid-color: '&cPlease provide a valid color.'
+invalid-block: '&cPlease provide a valid block.'
+invalid-item: '&cPlease provide a valid item.'
+invalid-note: '&cPlease provide a valid number between 0-24'
+unknown-command: '&cPlease provide a valid command.'
+invalid-arguments: '&cPlease provide valid arguments. Correct usage is %usage%'
+invalid-permission: '&cYou do not have permission for this command.'
+player-only: '&cOnly a player can execute this command.'

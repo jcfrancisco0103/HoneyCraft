@@ -1,0 +1,5 @@
+### CustomConfig version: 2.0
+nms-version: "auto"
+versioning: 
+  check-update: true
+  version-to-use: "latest"

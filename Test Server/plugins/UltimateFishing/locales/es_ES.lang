@@ -1,0 +1,40 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateFishing&8]'
+# Object Messages
+object:
+  bait:
+    name: '%bait% &7(cebo)'
+    lore: '&7Usa esto en una caña de pescar.'
+    baited: '&7Cebado: %bait% &7%uses%/%max%'
+# Interface Messages
+interface:
+  general: {}
+  leaderboard:
+    title: Clasificación
+    weight: '&6&lRareza de peso:'
+    name: '&7&l%place%: &6&l%name% &7(%score%)'
+    item: '&7%type%: &6%amount%'
+  sell:
+    title: Menu de Venta
+    prices: '&6&lPrecios de Venta:'
+    sellfor: '&7Vender por &a%price%'
+    accessbaitshop: '&7Acceder a Tienda de Cebos'
+  bait:
+    title: Tienda de Cebos
+    cannotafford: '&cNo puedes permitirte comprar esto.'
+    buyfor: '&7Comprar por &a%price%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNo tienes permiso para hacer eso.'
+    critical: '&6¡Lanzamiento critico!'
+  bait:
+    given: '&7Se te ha dado &6%amount% %bait%&7.'
+  sell:
+    success: '&7Has vendido tu pescado con éxito por &6$%total%&7.'
+    fail: '&cNada en la interfaz se puede vender...'
+  catch:
+    broadcast: '&7¡&6%username% &7acaba de atrapar un pez &6%rarity%&7!'

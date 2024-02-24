@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.131.142.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1708208278788
+  login: 1708208003027
+money: '0'
+last-account-name: Gerona
+lastlocation:
+  world: 006cb374-fe5b-4f94-85fa-fe3bb835617a
+  world-name: world
+  x: -2.1556606874483224
+  y: 78.5
+  z: -10.334806911849041
+  yaw: -159.7525634765625
+  pitch: 8.63050365447998
+logoutlocation:
+  world: f9076a75-b3d2-49c1-9936-a0180e24629c
+  world-name: Survival
+  x: -12.04682128857039
+  y: 64.0
+  z: -301.37843175071407
+  yaw: -78.141357421875
+  pitch: 46.94789123535156

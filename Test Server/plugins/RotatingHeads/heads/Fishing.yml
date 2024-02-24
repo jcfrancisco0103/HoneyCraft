@@ -1,0 +1,21 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=2)
+  small: false
+  location: world(30.5,79.0,-61.5)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=Fishing)
+name:
+  offset: 0.25
+  space: 0.25
+  lines:
+  - '&9+-------------------------+'
+  - 'Hey &b%player%'
+  - 'This is a &bFishing Zone'
+  - 'Here you can &bFish &fand upgrade'
+  - 'Your fishing experience by'
+  - 'interacting with the &bNPC!'
+  - '&9+-------------------------+'
