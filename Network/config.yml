@@ -22,7 +22,7 @@ disabled_commands:
 servers:
   lobby:
     motd: PMCfa1abd884e1487ff6d6537c7c1b196c6
-    address: 147.185.221.18:33643
+    address: 147.185.221.18:43240
     restricted: false
     ForkServer: false
     ForkServerUid: ''
@@ -45,12 +45,12 @@ servers:
     ForkServer: false
     ForkServerUid: ''
 listeners:
-- query_port: 25565
+- query_port: 25504
   max_players: 50
   tab_size: 60
   motd: PMCfa1abd884e1487ff6d6537c7c1b196c6
   tab_list: GLOBAL
-  host: 0.0.0.0:25565
+  host: 0.0.0.0:25504
   ping_passthrough: false
   force_default_server: true
   proxy_protocol: false

@@ -5,6 +5,84 @@
 # Random UUID generator: https://www.uuidgenerator.net/
 # Color codes: https://docs.adventure.kyori.net/minimessage.html#format
 
+example_sword:
+  
+  displayname: <gradient:#FA7CBB:#F14658><bold>My Custom Sword
+  material: WOODEN_SWORD
+  injectID: false # allow Oraxen to recognise the item if true or not set
+  durability: 10
+  
+  ItemFlags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  
+  PersistentData:
+  - key: test:hello
+    type: STRING
+    value: Here is a value
+  
+  AttributeModifiers:
+  - attribute: GENERIC_MOVEMENT_SPEED
+    amount: 0.1
+    operation: 0
+    slot: HAND
+    uuid: d05defe4-6e7b-4469-aaeb-0b3e00d7cac8
+    name: oraxen:modifier
+  
+  Enchantments:
+    protection: 4
+    flame: 34
+    sharpness: 18
+  
+  Mechanics:
+    durability:
+      value: 10
+
+example_custom_mechanic:
+  displayname: <gradient:#FA7CBB:#F14658><bold>My Item With A Custom Mechanic
+  material: DIAMOND_SWORD
+  Mechanics:
+    custom:
+      test:
+        one_usage: true
+        cooldown: 200 # in ticks
+        event: CLICK:right:all
+        conditions:
+        - '#player.hasPermission(''example.permission'')'
+        actions:
+        - '[console] give <player> cooked_beef 1'
+
+example_efficient_pickaxe:
+  displayname: <gradient:#59A7EA:#F1D2FF><bold>Turbo Pickaxe
+  material: DIAMOND_PICKAXE
+  Mechanics:
+    efficiency:
+      amount: 3
+
+example_slow_pickaxe:
+  displayname: <gradient:#59A7EA:#F1D2FF><bold>Slow Pickaxe
+  material: DIAMOND_PICKAXE
+  Mechanics:
+    efficiency:
+      amount: -3
+
+example_potion:
+  displayname: <#6f737d>Wither Potion
+  material: SPLASH_POTION
+  injectID: false # allow Oraxen to recognise the item if true or not set
+  color: 34, 0, 10
+  PotionEffects:
+  - type: WITHER
+    duration: 200
+    amplifier: 2
+    ambient: false
+    particles: true
+    icon: true
+
 miner_sandwitch:
   displayname: <gradient:#F69D84:#FAD98D>Miner's sandwitch
   material: COOKED_BEEF

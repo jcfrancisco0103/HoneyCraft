@@ -26,7 +26,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  bungeecord: false
+  bungeecord: true
   player-shuffle: 0
   sample-count: 12
   moved-too-quickly-multiplier: 10.0

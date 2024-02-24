@@ -1,7 +1,7 @@
 {
   "connect.joining": "",
-  "menu.disconnect": "<shift:74><gray>See you soon!<shift:-142><glyph:menu_banner>",
-  "menu.returnToGame": "Back to the Oraxen experience",
+  "menu.disconnect": "<red>Leave <yellow>HoneyCraft? :(",
+  "menu.returnToGame": "<blue>Return to <yellow>HoneyCraft <blue>and Keep Playing!",
   "menu.game": "<glyph:logo>",
   "item.dyed": "",
   "container.inventory": " Inventory",
